@@ -2,7 +2,7 @@
 
 *There's always something worth digging up.*
 
-**Aperture Archive** is a community project dedicated to preserving and exploring the development history of **Portal 2**, from the early **F-STOP** concepts to the builds leading up to the game's 2011 release.
+**Aperture Archive** is a community project dedicated to preserving the history of **Aperture Science** across the Portal series, from the original *Portal* to *Portal 2*, F-STOP, unreleased prototypes, cut content, and the community projects that uncover them.
 
 Our goal is to bring the surviving pieces together in one place: builds, development material, screenshots, mechanics, documentation, and the discoveries that help connect them. We're also working toward a **Portal 2 Beta Mega Build**, inspired by the community preservation work around [Half-Life 2 Project Beta](https://hl2-beta.ru/).
 
@@ -28,7 +28,7 @@ If you're putting together a Portal-inspired website of your own, **feel free to
 
 ## Historical References
 
-Some of the public sources featured across the site:
+Primary sources for development-build research are the provided Discord exports from **[Portal Series Beta Research](https://discord.gg/ZFfG2YhUt)** and **[Valve Cut Content](https://discord.gg/scXwfXt)**. Additional archive links are listed below:
 
 - [Valve Archive — Portal 2 F-STOP screenshots](https://valvearchive.com/Games/Portal%202/Screenshots/F-STOP/)
 - [Valve Archive — early Cave Johnson art](https://valvearchive.com/Games/Portal%202/Art/Cave%20Johnson/)
