@@ -24,7 +24,7 @@ def is_image(payload: bytes) -> bool:
         or (payload.startswith(b"RIFF") and payload[8:12] == b"WEBP")
 
 def archive(match: re.Match) -> str:
-    global downloaded, failed
+    global downloaded, failed, relative_prefix
     raw = html.unescape(match.group(2))
     parsed = urlparse(raw)
     if parsed.hostname != "cdn.discordapp.com":
@@ -45,13 +45,14 @@ def archive(match: re.Match) -> str:
                 raise RuntimeError("unexpected image data")
             target.write_bytes(data)
             downloaded += 1
-        return match.group(1) + "../assets/screenshots/" + target.name + match.group(3)
+        return match.group(1) + relative_prefix + target.name + match.group(3)
     except Exception as ex:
         failed += 1
         print(f"Unable to cache {pieces[2]}: {ex}")
         return match.group(0)
 
-for file in sorted(BUILD_DIR.glob("*.html")):
+for file in sorted(ROOT.glob("*.html")) + sorted(BUILD_DIR.glob("*.html")):
+    relative_prefix = "../assets/screenshots/" if file.parent == BUILD_DIR else "assets/screenshots/"
     current = file.read_text(encoding="utf-8")
     revised = RX.sub(archive, current)
     if revised != current:
