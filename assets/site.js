@@ -8,10 +8,10 @@
     const dark = getTheme() === 'dark';
     themeButton.setAttribute('role', 'switch');
     themeButton.setAttribute('aria-checked', String(dark));
-    themeButton.setAttribute('aria-pressed', String(dark));
     const label = themeButton.querySelector('.theme-label');
     if (label) label.textContent = 'DARK MODE';
     themeButton.setAttribute('aria-label', 'Dark mode');
+    themeButton.setAttribute('title', dark ? 'Dark mode enabled' : 'Dark mode disabled');
   };
   updateThemeButton();
   themeButton?.addEventListener('click', () => {
