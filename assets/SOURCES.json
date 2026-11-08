@@ -1,37 +1,141 @@
 {
-  "fstop": {
-    "src": "https://steamuserimages-a.akamaihd.net/ugc/1303178965577920286/25FBFC14D1ACEB8A3E19CDF616E43C3F5BB77B81/",
-    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2149505634",
-    "title": "F-STOP era equipment concepts",
-    "credit": "Development asset concepts, reproduced in a Steam community archival guide",
-    "era": "EARLY DEVELOPMENT"
-  },
-  "intro": {
-    "src": "https://valvearchive.com/Games/Portal%202/Screenshots/F-STOP/F-STOP_Intro.png",
-    "link": "https://valvearchive.com/Games/Portal%202/Screenshots/F-STOP/",
-    "title": "F-STOP Intro archive image",
-    "credit": "Valve Archive, Portal 2 / Screenshots / F-STOP",
-    "era": "F-STOP"
-  },
-  "cave": {
-    "src": "https://valvearchive.com/Games/Portal%202/Art/Cave%20Johnson/early_cave.png",
-    "link": "https://valvearchive.com/Games/Portal%202/Art/Cave%20Johnson/",
-    "title": "Early Cave Johnson illustration",
-    "credit": "Valve Archive, Portal 2 / Art / Cave Johnson",
-    "era": "DEVELOPMENT ART"
-  },
-  "environment": {
-    "src": "https://www.co-optimus.com/images/gallery/6980xPortal%205.jpg",
-    "link": "https://www.co-optimus.com/article/7976/dark-horse-s-the-art-of-portal-2-portrays-aperture-science-from-unseen-perspectives.html",
-    "title": "Old Aperture environmental concept",
-    "credit": "Portal 2 concept art published in coverage of The Art of Portal 2",
-    "era": "OLD APERTURE"
-  },
-  "beam": {
-    "src": "https://hl-inside.me/gallery/portal2-concept-arts/images/community_image_1362423332.jpg",
-    "link": "https://hl-inside.me/gallery/portal2-concept-arts/",
-    "title": "Thermal Discouragement Beam concept",
-    "credit": "Portal 2 concept image preserved in Half-Life Inside gallery",
-    "era": "TESTING ELEMENT"
-  }
+  "research_priority": "Provided PSBR and VCC Discord HTML exports; TCRF is not treated as an authoritative source here",
+  "research_sources": [
+    {
+      "name": "Portal Series Beta Research (PSBR)",
+      "url": "https://discord.gg/ZFfG2YhUt"
+    },
+    {
+      "name": "Valve Cut Content (VCC)",
+      "url": "https://discord.gg/scXwfXt"
+    }
+  ],
+  "build_sources": [
+    {
+      "title": "July 2009 \u00b7 Corehub",
+      "code": "852_0",
+      "sources": [
+        "https://discord.com/channels/809092700003500084/1543351547604508693/1543362799164465333",
+        "https://discord.com/channels/809092700003500084/1547674551570403419/1547801800168579084",
+        "https://discord.com/channels/809092700003500084/1543351547604508693/1543353389872578691"
+      ]
+    },
+    {
+      "title": "February 2010",
+      "code": "841_0",
+      "sources": [
+        "https://discord.com/channels/809092700003500084/1543351664998883529/1544576537951608892"
+      ]
+    },
+    {
+      "title": "March 2010",
+      "code": "852_1",
+      "sources": [
+        "https://discord.com/channels/809092700003500084/1543351664998883529/1544576537951608892"
+      ]
+    },
+    {
+      "title": "July 2010",
+      "code": "852_2",
+      "sources": [
+        "https://discord.com/channels/809092700003500084/1543351664998883529/1544576537951608892",
+        "https://discord.com/channels/809092700003500084/1543351664998883529/1543749117124153435"
+      ]
+    },
+    {
+      "title": "August 2010",
+      "code": "852_3",
+      "sources": [
+        "https://discord.com/channels/809092700003500084/1543351664998883529/1543749117124153435",
+        "https://discord.com/channels/809092700003500084/1543351664998883529/1544576537951608892"
+      ]
+    },
+    {
+      "title": "September 24, 2010",
+      "code": "841_1",
+      "sources": [
+        "https://discord.com/channels/809092700003500084/1543351664998883529/1546608247971127448",
+        "https://discord.com/channels/809092700003500084/1543351664998883529/1546608247971127448"
+      ]
+    },
+    {
+      "title": "September 26, 2010",
+      "code": "841_2",
+      "sources": [
+        "https://discord.com/channels/809092700003500084/1543351664998883529/1546608247971127448",
+        "https://discord.com/channels/809092700003500084/1543351664998883529/1544576537951608892"
+      ]
+    },
+    {
+      "title": "October 2010",
+      "code": "852_4",
+      "sources": [
+        "https://discord.com/channels/809092700003500084/1543351664998883529/1544676612753199215",
+        "https://discord.com/channels/809092700003500084/1543351664998883529/1544576537951608892"
+      ]
+    },
+    {
+      "title": "December 1, 2010",
+      "code": "852_6",
+      "sources": [
+        "https://discord.com/channels/809092700003500084/1543351725593862247/1543354220810338325",
+        "https://discord.com/channels/809092700003500084/1543351725593862247/1545576597619351654",
+        "https://discord.com/channels/809092700003500084/1543351725593862247/1544686470869024818"
+      ]
+    },
+    {
+      "title": "December 2, 2010",
+      "code": "852_7",
+      "sources": [
+        "https://discord.com/channels/809092700003500084/1543351725593862247/1543354220810338325",
+        "https://discord.com/channels/809092700003500084/1543351725593862247/1544000056728879125",
+        "https://discord.com/channels/809092700003500084/1543351725593862247/1545649000286257182"
+      ]
+    },
+    {
+      "title": "January 2011",
+      "code": "841_3",
+      "sources": [
+        "https://discord.com/channels/809092700003500084/1543351664998883529/1544576537951608892",
+        "https://discord.com/channels/186525910625681408/1063293993338802227/1543611873289707520"
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "message": "1543352763189297172",
+      "thread": "https://discord.com/channels/809092700003500084/1543351547604508693/1543352763189297172",
+      "url": "https://cdn.discordapp.com/attachments/1543351547604508693/1543352762778259567/image.png?ex=6af18084&is=6af02f04&hm=53595c06472ec668d9023ffdfbff23f3cbf09d9d48f729955fedbe892849f309&"
+    },
+    {
+      "message": "1543353389872578691",
+      "thread": "https://discord.com/channels/809092700003500084/1543351547604508693/1543353389872578691",
+      "url": "https://cdn.discordapp.com/attachments/1543351547604508693/1543353388794650644/image.png?ex=6af1811a&is=6af02f9a&hm=74113638c63234faa2ce20fc900930d417602ae586aa55ae42caf648be8322cd&"
+    },
+    {
+      "message": "1543353389872578691",
+      "thread": "https://discord.com/channels/809092700003500084/1543351547604508693/1543353389872578691",
+      "url": "https://cdn.discordapp.com/attachments/1543351547604508693/1543353389432316024/image.png?ex=6af1811a&is=6af02f9a&hm=8f24c6274b900aead5c334d535d9c1278e7c4701858f22b89ea9eab8af238a60&"
+    },
+    {
+      "message": "1543467744396320900",
+      "thread": "https://discord.com/channels/809092700003500084/1543351547604508693/1543467744396320900",
+      "url": "https://cdn.discordapp.com/attachments/1543351547604508693/1543467744463425616/instruction_manual_scrap01.png?ex=6af1eb9a&is=6af09a1a&hm=05504e0a2cdba409bcdd4257af7a4bdfcb6c0b57ea79cb2c427555fe1799aa40&"
+    },
+    {
+      "message": "1543407946292133938",
+      "thread": "https://discord.com/channels/809092700003500084/1543351725593862247/1543407946292133938",
+      "url": "https://cdn.discordapp.com/attachments/1543351725593862247/1543407946032226445/image.png?ex=6af1b3e9&is=6af06269&hm=cbf8d95119b024a42a0b5529e17bf3e8fb75abf4acfa04a50b7bae32bcf5e61b&"
+    },
+    {
+      "message": "1543408426183299144",
+      "thread": "https://discord.com/channels/809092700003500084/1543351725593862247/1543408426183299144",
+      "url": "https://cdn.discordapp.com/attachments/1543351725593862247/1543408425843687444/image.png?ex=6af1b45b&is=6af062db&hm=2cfed64de5fec95aa73685f8b95060e379d5fea3a57a9254bdbba219471c276b&"
+    },
+    {
+      "message": "1545649000286257182",
+      "thread": "https://discord.com/channels/809092700003500084/1543351725593862247/1545649000286257182",
+      "url": "https://cdn.discordapp.com/attachments/1543351725593862247/1545648999925809192/image.png?ex=6af1f20e&is=6af0a08e&hm=9ac8e6049aa2da7ee94c51d8a1952e0986690f8f0ffccd74b4f217a3cefc766c&"
+    }
+  ]
 }

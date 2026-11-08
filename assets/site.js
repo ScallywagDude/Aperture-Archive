@@ -1,6 +1,22 @@
 (() => {
   'use strict';
   const cfg = window.APERTURE_ARCHIVE_CONFIG || {};
+  const themeButton = document.querySelector('.theme-toggle');
+  const getTheme = () => document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+  const updateThemeButton = () => {
+    if (!themeButton) return;
+    const dark = getTheme() === 'dark';
+    themeButton.setAttribute('aria-pressed', String(dark));
+    const label = themeButton.querySelector('.theme-label');
+    if (label) label.textContent = dark ? 'LIGHT MODE' : 'DARK MODE';
+    themeButton.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+  };
+  updateThemeButton();
+  themeButton?.addEventListener('click', () => {
+    document.documentElement.dataset.theme = getTheme() === 'dark' ? 'light' : 'dark';
+    try { localStorage.setItem('aa-theme', getTheme()); } catch (_) {}
+    updateThemeButton();
+  });
   const repo = typeof cfg.githubRepo === 'string' && /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(cfg.githubRepo.trim()) ? cfg.githubRepo.trim() : '';
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.primary-nav');
@@ -76,6 +92,7 @@
     search.addEventListener('input', update);
     update();
   }
+  document.querySelectorAll('.archive-shot img').forEach(img => img.addEventListener('error', () => { img.classList.add('screenshot-unavailable'); img.alt = 'Discord image preview unavailable. Open the original Discord message using the source link.'; }));
   document.querySelectorAll('.artwork-media img').forEach(img => {
     img.addEventListener('error', () => img.closest('.artwork-media')?.classList.add('image-broken'));
   });

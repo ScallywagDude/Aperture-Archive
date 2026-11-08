@@ -1,48 +1,37 @@
-# Aperture Archive Initiative
+# Aperture Archive
 
-*There's always something worth digging up.*
+**THE PAST AS A TEST SUBJECT.**
 
-**Aperture Archive** is a community project dedicated to preserving the history of **Aperture Science** across the Portal series, from the original *Portal* to *Portal 2*, F-STOP, unreleased prototypes, cut content, and the community projects that uncover them.
+Aperture Archive is an independent fan-run research and preservation archive covering everything related to **Aperture Science**: the original *Portal*, *Portal 2*, unfinished prototypes, F-STOP, test chambers, art, assets, unused mechanics, experimental projects, and the history behind them.
 
-Our goal is to bring the surviving pieces together in one place: builds, development material, screenshots, mechanics, documentation, and the discoveries that help connect them. We're also working toward a **Portal 2 Beta Mega Build**, inspired by the community preservation work around [Half-Life 2 Project Beta](https://hl2-beta.ru/).
+Alongside the larger archive, we're documenting the Portal 2 prototype builds spanning 2009–2011 and working toward a community **Portal 2 Beta Mega Build**, inspired by the preservation spirit of [Half-Life 2 Project Beta](https://hl2-beta.ru/).
 
-## The Archive
+## Departments
 
-The website is organized into a few departments, as any respectable Aperture facility should be:
+- **The Aperture Files** — the original Portal, F-STOP, hybrid experiments, Portal Paint, Portal 2 and other research topics.
+- **The Collection** — a searchable index of 2009–2011 Portal 2 builds with individual information pages and research credits.
+- **Release Desk** — links to the original development-build mirrors and F-STOP patches, source and maps.
+- **Message Board** — community discussion through [GitHub Discussions](https://github.com/ScallywagDude/Aperture-Archive/discussions).
+- **Dispatches** — archive news and preservation notes.
 
-- **The Collection** — a timeline of documented Portal 2 prototypes, early concepts, and development material.
-- **Dispatches** — project news, research notes, and progress updates.
-- **Release Desk** — information and changelogs for future Mega Build releases.
-- **Message Board** — community discussions, discoveries, and help through [GitHub Discussions](https://github.com/ScallywagDude/Aperture-Archive/discussions).
-- **Our Mission** — what the archive is about and where the historical artwork comes from.
+The December 2010 records distinguish **December 1 (`852_6`)** from **December 2 (`852_7`)**. The provided GoFile mirror is labeled `852_6` in community records; a standalone `852_7` mirror has not been confirmed.
 
-The collection currently highlights six dated development records spanning 2008-2011. More material will be added as the archive grows. **No Mega Build release has been announced yet.**
+## Research and credits
 
-## A Little Old Aperture
+The historical build descriptions are compiled from the supplied HTML exports of two community archives:
 
-The site takes its visual direction from Aperture Science in the late 1960s and early 1970s. Think faded employee handbooks, olive-green institutional walls, burnt-orange labels, archival index cards, bold display lettering, and industrial signage that takes itself entirely too seriously.
+- **[Portal Series Beta Research (PSBR)](https://discord.gg/ZFfG2YhUt)**
+- **[Valve Cut Content (VCC)](https://discord.gg/scXwfXt)**
 
-The layout and decorative details are built with HTML and CSS. **There are no AI-generated images on the website.** The imagery featured in the collection comes from documented Portal 2 development material and credited archival references.
+The individual build pages link to discussion messages for research findings and screenshot sources. When a community observation has not been separately verified, it is presented as a reported finding. Download hosts and original media remain separate from the archive and may change their links.
 
-If you're putting together a Portal-inspired website of your own, **feel free to take inspiration from the look and presentation.** I'd love to see more people make creative things around the series.
+## Design
 
-## Historical References
+The visual style draws on the late-1960s and early-1970s Aperture Science identity, using vintage industrial colors, publication-inspired typography and carefully labeled research records. The logo and favicon are provided Aperture artwork. **No AI-generated images are used.** The interface includes an optional light/dark mode.
 
-Primary sources for development-build research are the provided Discord exports from **[Portal Series Beta Research](https://discord.gg/ZFfG2YhUt)** and **[Valve Cut Content](https://discord.gg/scXwfXt)**. Additional archive links are listed below:
+You're welcome to **take inspiration from the website's look and organization** for your own fan projects.
 
-- [Valve Archive — Portal 2 F-STOP screenshots](https://valvearchive.com/Games/Portal%202/Screenshots/F-STOP/)
-- [Valve Archive — early Cave Johnson art](https://valvearchive.com/Games/Portal%202/Art/Cave%20Johnson/)
-- [Hidden Palace — Portal 2 development entries](https://hiddenpalace.org/)
-- [Portal 2 concept artwork at Half-Life Inside](https://hl-inside.me/gallery/portal2-concept-arts/)
-- [Half-Life 2 Project Beta](https://hl2-beta.ru/)
-
-Artwork shown on the site is linked to its source when available. The [collection](archive.html) has the detailed record index, and [`assets/SOURCES.json`](assets/SOURCES.json) lists the credited image references.
-
-## Community
-
-Research, screenshots, odd prototype details, comparisons, restoration notes, and ideas are all welcome in the [Aperture Archive discussions](https://github.com/ScallywagDude/Aperture-Archive/discussions). If you find something interesting, bring it to the table.
-
-**Maintained by** [**ScallywagDude**](https://github.com/ScallywagDude)**.**
+Maintained by **[@ScallywagDude](https://github.com/ScallywagDude)**.
 
 ---
 
