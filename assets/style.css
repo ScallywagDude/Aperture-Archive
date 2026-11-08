@@ -351,3 +351,90 @@ html[data-theme=dark] .research-sources a{color:#f0b77d}
 @media(max-width:900px){.portal-beta-media{grid-template-columns:1fr;gap:24px}.mod-research-heading{margin-top:65px}}
 @media(max-width:760px){.portal-era-grid{grid-template-columns:1fr}.research-source-panel,.era-panel,.community-mod-card{padding:22px}.portal-beta-media{padding:16px;margin:40px 0}.research-source-panel .btn{width:100%;justify-content:space-between}.community-mod-card{min-height:0}.mod-research-heading{margin-top:55px}}
 @media(max-width:430px){.community-mods-section .section-head h2{font-size:clamp(40px,12vw,60px)}.mod-actions a{font-size:10px}.mod-status{font-size:9px}}
+
+
+/* Narbacular Drop — original DigiPen game / Portal origins */
+.narb-page{overflow:clip}
+.narb-hero{background:#122d27;color:#f6edd8;position:relative;overflow:hidden;padding:76px 0 88px}
+.narb-hero:before{content:"";position:absolute;pointer-events:none;right:-100px;top:-170px;width:570px;height:570px;background:repeating-radial-gradient(circle,transparent 0 29px,#9d7b4a 30px 32px);opacity:.13}
+.narb-hero-grid{display:grid;grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);align-items:center;gap:44px;position:relative}
+.narb-hero-grid>*{min-width:0}
+.narb-stamp{display:inline-block;background:#d56f35;color:#fff8ed;font:800 10px 'Courier New',monospace;letter-spacing:1px;padding:9px 12px;transform:rotate(-2deg)}
+.narb-kicker{display:block;color:#cad2bd;margin:28px 0 8px}
+.narb-hero h1{font-size:clamp(63px,7.5vw,126px);line-height:.82;letter-spacing:-.04em;margin:14px 0 25px;overflow-wrap:anywhere}
+.narb-hero h1 em{color:#eb8f49;font-style:normal}
+.narb-hero-tagline{font:900 clamp(23px,3.1vw,39px)/1.04 Impact,'Arial Narrow',sans-serif;letter-spacing:.2px;color:#fff0dd;margin:0 0 19px}
+.narb-intro{max-width:590px;color:#dfdfd1;font-size:16px;line-height:1.85;margin-bottom:27px}
+.narb-intro cite{font-style:italic}
+.narb-actions{display:flex;flex-wrap:wrap;gap:12px}
+.narb-actions .btn{font-size:11px;gap:15px}
+.narb-hero-fine{font:800 9px 'Courier New',monospace;letter-spacing:.7px;color:#c6cbbd;margin:20px 0 0}
+.narb-hero-art{min-width:0;margin:0;background:#dfd7bc;border:9px solid #e7d8b9;box-shadow:15px 15px 0 #071c19;padding:12px;transform:rotate(1deg);color:#203b34}
+.narb-hero-art img{width:100%;height:auto;aspect-ratio:1.5;object-fit:cover;display:block}
+.narb-art-label{font:800 10px/1.4 'Courier New',monospace;letter-spacing:.4px;display:flex;gap:10px;justify-content:space-between;padding:0 0 12px}
+.narb-hero-art figcaption{font:800 10px/1.6 'Courier New',monospace;padding-top:12px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.narb-hero-art a{color:#9b4018}
+.narb-stats{background:#df7c36;border-block:5px solid #f3e5c8;color:#18352c}
+.narb-stats-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.narb-stats-grid>div{padding:21px 9px;border-right:1px solid #8f4c1e}
+.narb-stats-grid>div:last-child{border:0}
+.narb-stats-grid span{display:block;font:800 10px 'Courier New',monospace;letter-spacing:.8px;opacity:.85;margin-bottom:9px}
+.narb-stats-grid strong{display:block;font:900 clamp(18px,2vw,28px)/1 Impact,'Arial Narrow',sans-serif;text-transform:uppercase}
+.narb-story-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(270px,.65fr);gap:45px}
+.narb-prose h3{font:900 clamp(25px,3vw,36px)/1.08 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;margin:29px 0 12px}
+.narb-prose h3:first-child{margin-top:0}
+.narb-prose p{font-size:16px;line-height:1.85;margin-bottom:17px;max-width:770px}
+.narb-prose .narb-reference{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:18px}
+.narb-reference a,.narb-source-notes a{color:var(--orange2);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.narb-side{background:var(--paper2);border:2px solid var(--ink);box-shadow:7px 7px 0 var(--line);padding:27px 28px;align-self:start}
+.narb-side-title{background:var(--ink);color:var(--cream);margin:-27px -28px 20px;padding:15px 28px;font:900 12px 'Courier New',monospace;letter-spacing:.5px}
+.narb-side dl{margin:0 0 27px}
+.narb-side dl>div{padding:11px 0;border-bottom:1px solid var(--line)}
+.narb-side dt{font:800 10px 'Courier New',monospace;letter-spacing:.4px;color:var(--muted);margin-bottom:4px}
+.narb-side dd{margin:0;font-weight:700;line-height:1.5}
+.narb-side>a{font:800 11px/1.5 'Courier New',monospace;color:var(--orange2);overflow-wrap:anywhere}
+.narb-gallery-section{padding:95px 0;background:var(--paper2)}
+.narb-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:25px}
+.narb-shot{min-width:0;margin:0;background:var(--paper);padding:13px;border:1px solid var(--line);box-shadow:5px 5px 0 var(--line)}
+.narb-shot a:first-child{display:block}
+.narb-shot img{width:100%;height:auto;aspect-ratio:1.8;object-fit:cover;display:block;background:#333}
+.narb-shot figcaption{font:12px/1.7 'Courier New',monospace;padding:12px 1px 1px;color:var(--ink)}
+.narb-shot figcaption span{display:block;color:var(--orange2);font-size:10px;font-weight:900;margin-bottom:4px}
+.narb-shot figcaption a{color:var(--orange2);text-decoration:underline}
+.narb-timeline-section{border-block:1px solid var(--line)}
+.narb-chronology{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.narb-chronology>div{background:var(--paper2);border-top:6px solid var(--orange);padding:27px}
+.narb-chronology span{font:900 clamp(33px,4vw,52px) Impact,'Arial Narrow',sans-serif;color:var(--orange2)}
+.narb-chronology h3{font:900 25px Impact,'Arial Narrow',sans-serif;text-transform:uppercase;margin:15px 0}
+.narb-chronology p{color:var(--muted);line-height:1.7;margin-bottom:0}
+.narb-people{padding:96px 0}
+.narb-people .head-copy{color:#d9ded2}
+.narb-team{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:33px}
+.narb-team>div{border:1px solid #6f8879;padding:21px 16px;min-width:0;background:#243f36}
+.narb-team b{display:block;font:900 21px/1.1 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;color:#f7edd5;margin-bottom:9px}
+.narb-team span{font:700 11px/1.6 'Courier New',monospace;color:#d3dac9}
+.narb-download-card{background:var(--paper2);border:3px solid var(--ink);box-shadow:9px 9px 0 var(--line);display:grid;grid-template-columns:minmax(0,1.3fr) minmax(235px,.7fr);gap:40px;padding:46px}
+.narb-download-card h2{font-size:clamp(47px,6vw,83px);line-height:.9;margin:15px 0}
+.narb-download-card h2 em{color:var(--orange);font-style:normal}
+.narb-download-card p{max-width:680px;line-height:1.8}
+.narb-availability{font:700 11px/1.8 'Courier New',monospace;border-top:1px solid var(--line);padding-top:17px;color:var(--muted)}
+.narb-download-actions{display:flex;flex-direction:column;gap:11px;align-self:center}
+.narb-download-actions .btn{width:100%;text-align:left;gap:10px}
+.narb-download-actions .btn-text{justify-content:flex-start;overflow-wrap:anywhere;font-size:11px}
+.narb-source-notes{padding-top:36px}
+.narb-source-notes h3{font:900 28px Impact,'Arial Narrow',sans-serif;text-transform:uppercase}
+.narb-source-notes p{font-size:13px;line-height:1.85;color:var(--muted)}
+html[data-theme=dark] .narb-hero{background:#071612;color:#f4e8d0}
+html[data-theme=dark] .narb-hero-art{background:#dfd7bc;border-color:#a9a48d;color:#203b34}
+html[data-theme=dark] .narb-hero-art a{color:#91401d}
+html[data-theme=dark] .narb-stats{background:#894b28;color:#fff0d9;border-color:#15231c}
+html[data-theme=dark] .narb-stats-grid>div{border-color:#b97750}
+html[data-theme=dark] .narb-side,html[data-theme=dark] .narb-shot,html[data-theme=dark] .narb-chronology>div,html[data-theme=dark] .narb-download-card{background:#21342d;color:#f3e9d6;border-color:#63796b;box-shadow:6px 6px 0 #091711}
+html[data-theme=dark] .narb-side-title{background:#09201b;color:#f5ebd5}
+html[data-theme=dark] .narb-gallery-section{background:#162720}
+html[data-theme=dark] .narb-shot figcaption{color:#f1e6d2}
+html[data-theme=dark] .narb-chronology p,html[data-theme=dark] .narb-source-notes p,html[data-theme=dark] .narb-availability{color:#c3cfbb}
+html[data-theme=dark] .narb-source-notes a,html[data-theme=dark] .narb-reference a,html[data-theme=dark] .narb-side>a,html[data-theme=dark] .narb-shot figcaption a{color:#efb27e}
+@media(max-width:1020px){.narb-hero-grid{grid-template-columns:1fr;gap:35px}.narb-hero-art{max-width:680px;margin:0 auto}.narb-story-grid{grid-template-columns:1fr}.narb-team{grid-template-columns:repeat(2,minmax(0,1fr))}.narb-download-card{grid-template-columns:1fr}.narb-hero h1{font-size:clamp(62px,12vw,110px)}}
+@media(max-width:760px){.narb-hero{padding:55px 0}.narb-stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.narb-stats-grid>div:nth-child(2){border-right:0}.narb-stats-grid>div:nth-child(-n+2){border-bottom:1px solid #8f4c1e}.narb-gallery,.narb-chronology{grid-template-columns:1fr}.narb-gallery-section,.narb-people{padding:65px 0}.narb-hero-art{transform:none;box-shadow:8px 8px 0 #071c19}.narb-download-card{padding:25px}.narb-hero h1{font-size:clamp(55px,12vw,84px)}}
+@media(max-width:480px){.narb-hero-grid{gap:27px}.narb-hero h1{font-size:clamp(48px,11.8vw,68px);letter-spacing:-.04em}.narb-actions .btn{width:100%;justify-content:space-between}.narb-intro{font-size:15px}.narb-hero-art{border-width:5px;padding:8px}.narb-hero-art figcaption,.narb-art-label{font-size:8px}.narb-stats-grid{gap:0}.narb-stats-grid>div{padding:17px 7px}.narb-stats-grid strong{font-size:18px}.narb-team{grid-template-columns:1fr}.narb-shot{padding:8px}.narb-download-card{padding:22px 16px}.narb-chronology>div{padding:22px}}
