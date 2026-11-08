@@ -172,3 +172,124 @@ html[data-theme=dark] .site-header .theme-toggle:hover,html[data-theme=dark] .si
 html[data-theme=dark] .community-card{background:var(--paper2);border-color:var(--line);box-shadow:4px 4px 0 #09120e}
 html[data-theme=dark] .collection-tabs a{background:#2e493f;color:#f0e6cf}
 @media(max-width:760px){.community-grid{grid-template-columns:1fr}.collection-tabs a{flex:1 1 145px;text-align:center}}
+
+
+/* Dark mode contrast corrections | consistent ink, paper and callout legibility */
+html[data-theme="dark"] .forum-guide{
+  background:#193029;
+  color:#f3e9d6;
+}
+html[data-theme="dark"] .menu-toggle{
+  background:#335444;
+  color:#fff9e9;
+}
+html[data-theme="dark"] .gallery-section{
+  background:#24392f;
+  color:#f0e6cf;
+  border-color:#849887;
+}
+html[data-theme="dark"] .gallery-grid .artwork{
+  background:#1c2925;
+  border-color:#465b4e;
+  color:#f0e6cf;
+  box-shadow:5px 5px 0 #0c1713;
+}
+html[data-theme="dark"] .gallery-grid .artwork figcaption{
+  color:#f0e6cf;
+}
+html[data-theme="dark"] .post-notice{
+  background:#30483a;
+  color:#f7e9d0;
+}
+html[data-theme="dark"] .timeline-rows a:hover,
+html[data-theme="dark"] .timeline-rows a:focus-visible{
+  background:#35483a;
+  color:#fff3dd;
+}
+html[data-theme="dark"] .hero-art-top{
+  color:#f0e6cf;
+}
+html[data-theme="dark"] .image-fallback{
+  color:#24382c;
+}
+html[data-theme="dark"] .image-fallback strong,
+html[data-theme="dark"] .image-fallback span{
+  color:#24382c;
+}
+html[data-theme="dark"] .marquee-band{
+  background:#783d23;
+  color:#fff0d9;
+}
+html[data-theme="dark"] .marquee-inner b{
+  color:#ffbb8b;
+}
+html[data-theme="dark"] .callout-section{
+  background:#743924;
+  color:#fff2da;
+}
+html[data-theme="dark"] .callout-grid h2 em{
+  color:#ffbc87;
+}
+html[data-theme="dark"] .forum-hero{
+  background:#6b3022;
+  color:#fff1dc;
+}
+html[data-theme="dark"] .forum-hero h1 em{
+  color:#ffbb86;
+}
+html[data-theme="dark"] .forum-hero .page-hero-top .eyebrow{
+  background:#203b34;
+  color:#fff1dc;
+}
+html[data-theme="dark"] .btn-primary{
+  background:#873f1c;
+  color:#fff9eb;
+}
+html[data-theme="dark"] .btn-pale,
+html[data-theme="dark"] .btn-cream{
+  background:#f0e6cf;
+  border-color:#f0e6cf;
+  color:#213a31;
+}
+html[data-theme="dark"] .btn-outline{
+  border-color:#f0e6cf;
+  color:#f0e6cf;
+}
+html[data-theme="dark"] .btn-outline:hover,
+html[data-theme="dark"] .btn-outline:focus-visible{
+  background:#f0e6cf;
+  color:#213a31;
+}
+html[data-theme="dark"] .forum-setup .btn:hover,
+html[data-theme="dark"] .forum-setup .btn:focus-visible{
+  background:#f0e6cf;
+  color:#213a31;
+}
+html[data-theme="dark"] .aside-box.orange{
+  background:#743b25;
+  color:#fff1dc;
+}
+html[data-theme="dark"] .aside-box.orange a{
+  color:#ffd09f;
+}
+html[data-theme="dark"] .release-board{
+  background:#1c2925;
+  color:#f0e6cf;
+  border-color:#839989;
+}
+html[data-theme="dark"] .release-stamp{
+  color:#f4ac76;
+}
+html[data-theme="dark"] .feature-card:not(.accent-card) p,
+html[data-theme="dark"] .archive-shot figcaption,
+html[data-theme="dark"] .dossier-note small,
+html[data-theme="dark"] .catalog-toolbar p{
+  color:#c8d0be;
+}
+html[data-theme="dark"] .feature-card.accent-card p{
+  color:#fff0dc;
+}
+html[data-theme="dark"] a:hover,
+html[data-theme="dark"] a:focus-visible{
+  text-underline-offset:3px;
+}
