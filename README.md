@@ -8,6 +8,8 @@ Alongside the larger archive, we're documenting the Portal 2 prototype builds sp
 
 ## Departments
 
+- **[Interactive Timeline](timeline.html)** — date-by-date, searchable history of original releases, prototype depots, Portal 2 builds, official DLC and tech demos, and major leaks such as Steam2 and Exposure. Each build links to its own dossier.
+
 - **[Narbacular Drop](narbacular-drop.html)** — the original 2005 DigiPen puzzle game that inspired Portal, with the historic download, screenshots, and team credits.
 - **The Aperture Files** — the original Portal, F-STOP, hybrid experiments, Portal Paint, Portal 2 and other research topics.
 - **The Collection** — original development records and the 2008 F-STOP sources, dated Portal 2 build dossiers, **Community Fixes**, and a separate **Community Mods** category with playable Portal 1 beta recreations and the Exposure fan-build archive.
