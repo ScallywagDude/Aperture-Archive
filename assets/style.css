@@ -565,3 +565,10 @@ html[data-theme=dark] .tl-reset{color:#efb07b}
 @media(max-width:1050px){.tl-controls{grid-template-columns:1fr}.tl-years a{flex:0 0 87px}.tl-method-grid{grid-template-columns:1fr;gap:25px}}
 @media(max-width:760px){.tl-hero{padding:63px 0}.tl-hero-head{grid-template-columns:1fr}.tl-hero-counter{display:none}.tl-hero h1{font-size:clamp(65px,14vw,105px)}.tl-filter-head{align-items:flex-start;flex-direction:column;gap:5px}.tl-filter{flex:1 1 auto;text-align:center}.tl-event-list{padding-left:22px}.tl-event-list:before{left:10px}.tl-node{left:-19px}.tl-item{margin-left:9px}.tl-card{padding:21px 17px}.tl-card-source{padding:10px 17px}.tl-card h3{font-size:clamp(30px,7.5vw,42px)}.tl-home-preview{grid-template-columns:1fr}.tl-home-preview .btn{justify-content:space-between}.tl-methodology{padding:65px 0}}
 @media(max-width:450px){.tl-card-top{align-items:flex-start;flex-direction:column}.tl-hero-actions .btn{width:100%;justify-content:space-between}.tl-hint{display:none}.tl-key{gap:11px 15px}.tl-key span{font-size:9px}.tl-years a{flex-basis:72px}.tl-tag{font-size:8px}}
+
+
+/* Verified external image provenance links inside build dossiers */
+.screenshot-source-index{background:var(--paper2);border-left:4px solid var(--orange);padding:12px 15px;margin:0 0 22px;font:800 11px/1.8 'Courier New',monospace;overflow-wrap:anywhere;color:var(--muted)}
+.screenshot-source-index a{color:var(--orange2);text-decoration:underline;text-underline-offset:3px}
+html[data-theme=dark] .screenshot-source-index{background:#26382f;color:#e2dccc;border-color:#e29359}
+html[data-theme=dark] .screenshot-source-index a{color:#f0b77d}
