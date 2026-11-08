@@ -9,8 +9,9 @@ Alongside the larger archive, we're documenting the Portal 2 prototype builds sp
 ## Departments
 
 - **The Aperture Files** — the original Portal, F-STOP, hybrid experiments, Portal Paint, Portal 2 and other research topics.
-- **The Collection** — a searchable index of 2009–2011 Portal 2 builds with individual information pages and research credits.
-- **Release Desk** — links to the original development-build mirrors and F-STOP patches, source and maps.
+- **The Collection** — original development records and the 2008 F-STOP sources, dated Portal 2 build dossiers, **Community Fixes**, and a separate **Community Mods** category with playable Portal 1 beta recreations and the Exposure fan-build archive.
+- **Portal 1 Beta Research** — [2005–2007 research](portal-beta.html), playable reconstructions of the Leipzig and X06 demonstrations, December 2006 map-source records, and community projects.
+- **Release Desk** — historical build mirrors, F-STOP source and maps, and community patches.
 - **Message Board** — community discussion through [GitHub Discussions](https://github.com/ScallywagDude/Aperture-Archive/discussions).
 - **Dispatches** — archive news and preservation notes.
 
@@ -23,7 +24,7 @@ The historical build descriptions are compiled from the supplied HTML exports of
 - **[Portal Series Beta Research (PSBR)](https://discord.gg/ZFfG2YhUt)**
 - **[Valve Cut Content (VCC)](https://discord.gg/scXwfXt)**
 
-The individual build pages link to discussion messages for research findings and screenshot sources. When a community observation has not been separately verified, it is presented as a reported finding. Download hosts and original media remain separate from the archive and may change their links.
+The individual build pages link to discussion messages for research findings and screenshot sources. Portal 1 historical source status follows PSBR's FAQ; information on individual recreation mods is credited to their own developer and project pages. Exposure is listed as a leaked build of LunchHouse's **fan recreation**, not an original leaked Valve executable. When a community observation has not been separately verified, it is presented as a reported finding. Download hosts and original media remain separate from the archive and may change their links.
 
 ## Design
 
