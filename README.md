@@ -8,6 +8,7 @@ Alongside the larger archive, we're documenting the Portal 2 prototype builds sp
 
 ## Departments
 
+- **[Narbacular Drop](narbacular-drop.html)** — the original 2005 DigiPen puzzle game that inspired Portal, with the historic download, screenshots, and team credits.
 - **The Aperture Files** — the original Portal, F-STOP, hybrid experiments, Portal Paint, Portal 2 and other research topics.
 - **The Collection** — original development records and the 2008 F-STOP sources, dated Portal 2 build dossiers, **Community Fixes**, and a separate **Community Mods** category with playable Portal 1 beta recreations and the Exposure fan-build archive.
 - **Portal 1 Beta Research** — [2005–2007 research](portal-beta.html), playable reconstructions of the Leipzig and X06 demonstrations, December 2006 map-source records, and community projects.
