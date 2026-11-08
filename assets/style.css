@@ -438,3 +438,28 @@ html[data-theme=dark] .narb-source-notes a,html[data-theme=dark] .narb-reference
 @media(max-width:1020px){.narb-hero-grid{grid-template-columns:1fr;gap:35px}.narb-hero-art{max-width:680px;margin:0 auto}.narb-story-grid{grid-template-columns:1fr}.narb-team{grid-template-columns:repeat(2,minmax(0,1fr))}.narb-download-card{grid-template-columns:1fr}.narb-hero h1{font-size:clamp(62px,12vw,110px)}}
 @media(max-width:760px){.narb-hero{padding:55px 0}.narb-stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.narb-stats-grid>div:nth-child(2){border-right:0}.narb-stats-grid>div:nth-child(-n+2){border-bottom:1px solid #8f4c1e}.narb-gallery,.narb-chronology{grid-template-columns:1fr}.narb-gallery-section,.narb-people{padding:65px 0}.narb-hero-art{transform:none;box-shadow:8px 8px 0 #071c19}.narb-download-card{padding:25px}.narb-hero h1{font-size:clamp(55px,12vw,84px)}}
 @media(max-width:480px){.narb-hero-grid{gap:27px}.narb-hero h1{font-size:clamp(48px,11.8vw,68px);letter-spacing:-.04em}.narb-actions .btn{width:100%;justify-content:space-between}.narb-intro{font-size:15px}.narb-hero-art{border-width:5px;padding:8px}.narb-hero-art figcaption,.narb-art-label{font-size:8px}.narb-stats-grid{gap:0}.narb-stats-grid>div{padding:17px 7px}.narb-stats-grid strong{font-size:18px}.narb-team{grid-template-columns:1fr}.narb-shot{padding:8px}.narb-download-card{padding:22px 16px}.narb-chronology>div{padding:22px}}
+
+
+/* Narbacular Drop gateway / Archive, Origins, and homepage */
+.narb-origin-feature{background:#193a31;color:#f6ecd6;padding:72px 0;border-block:7px solid #c26a34;scroll-margin-top:20px}
+.narb-origin-feature-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:45px;align-items:center}
+.narb-origin-feature-grid>*{min-width:0}
+.narb-origin-feature-copy .eyebrow{color:#f9bc83}
+.narb-origin-feature h2{font-size:clamp(42px,5.7vw,82px);line-height:.94;margin:20px 0}
+.narb-origin-feature h2 em{color:#f29b59;font-style:normal}
+.narb-origin-feature p{max-width:640px;font-size:15px;line-height:1.8;color:#efe6d5}
+.narb-origin-feature-links{display:flex;flex-wrap:wrap;align-items:center;gap:15px 28px;margin-top:27px}
+.narb-origin-feature-links>a:not(.btn){font:800 10px/1.6 'Courier New',monospace;color:#ffbe85;text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+.narb-origin-feature-picture{display:block;text-decoration:none;background:#e6dbbf;padding:12px;color:#243e34;box-shadow:12px 12px 0 #091e1b;transform:rotate(1deg)}
+.narb-origin-feature-picture img{width:100%;aspect-ratio:1.75;object-fit:cover;background:#34261c}
+.narb-origin-feature-picture span{display:block;padding:11px 0 0;font:800 10px 'Courier New',monospace;letter-spacing:.3px;color:#243e34}
+.narb-origin-division .narb-division-thumb{margin:20px 0;background:#d1c5a7;padding:9px;border:1px solid var(--line)}
+.narb-origin-division .narb-division-thumb img{width:100%;max-height:235px;object-fit:cover;aspect-ratio:2}
+.narb-origin-division .narb-division-thumb figcaption{font:700 10px 'Courier New',monospace;color:#203b34;padding:9px 4px 3px}
+html[data-theme=dark] .narb-origin-feature{background:#0d231d;color:#f6ecd6;border-color:#864c2d}
+html[data-theme=dark] .narb-origin-feature p{color:#e9dec8}
+html[data-theme=dark] .narb-origin-feature-picture{background:#d4c4a6;color:#203b34;box-shadow:12px 12px 0 #06130f}
+html[data-theme=dark] .narb-origin-division .narb-division-thumb{background:#d1c5a7;border-color:#857f64}
+@media(max-width:980px){.narb-origin-feature-grid{grid-template-columns:1fr;gap:30px}.narb-origin-feature-picture{max-width:650px;margin-inline:auto}.narb-origin-feature h2{font-size:clamp(42px,9vw,70px)}}
+@media(max-width:760px){.narb-origin-feature{padding:58px 0}.narb-origin-feature-picture{transform:none;box-shadow:8px 8px 0 #061a17}.narb-origin-feature-links .btn{width:100%;justify-content:space-between}}
+@media(max-width:480px){.narb-origin-feature{padding:42px 0}.narb-origin-feature-picture{padding:7px}.narb-origin-feature-picture span{font-size:9px}.narb-origin-feature h2{font-size:clamp(40px,11vw,58px)}}
