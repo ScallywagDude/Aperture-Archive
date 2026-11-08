@@ -6,10 +6,12 @@
   const updateThemeButton = () => {
     if (!themeButton) return;
     const dark = getTheme() === 'dark';
+    themeButton.setAttribute('role', 'switch');
+    themeButton.setAttribute('aria-checked', String(dark));
     themeButton.setAttribute('aria-pressed', String(dark));
     const label = themeButton.querySelector('.theme-label');
-    if (label) label.textContent = dark ? 'LIGHT MODE' : 'DARK MODE';
-    themeButton.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    if (label) label.textContent = 'DARK MODE';
+    themeButton.setAttribute('aria-label', 'Dark mode');
   };
   updateThemeButton();
   themeButton?.addEventListener('click', () => {
