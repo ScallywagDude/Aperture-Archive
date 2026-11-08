@@ -293,3 +293,61 @@ html[data-theme="dark"] a:hover,
 html[data-theme="dark"] a:focus-visible{
   text-underline-offset:3px;
 }
+
+/* Portal 1 beta research and Community Mods */
+#community-mods, #community-fixes {scroll-margin-top:18px}
+.community-mods-section{border-top:5px solid var(--orange)}
+.community-mods-section .section-head{align-items:flex-start}
+.community-mod-card{display:flex;flex-direction:column;min-height:225px}
+.community-mod-card h3{line-height:1.08}
+.community-mod-card .mod-actions{margin-top:auto;padding-top:16px}
+.mod-meta{display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.mod-era,.mod-status{font:800 10px/1.4 'Courier New',monospace;letter-spacing:.5px}
+.mod-era{color:var(--orange2);text-transform:uppercase}
+.mod-status{border:1px solid var(--line);padding:4px 7px}
+.mod-actions{display:flex;gap:10px 22px;flex-wrap:wrap;align-items:center}
+.mod-actions a{font:800 11px/1.5 'Courier New',monospace;letter-spacing:.15px;color:var(--orange2);overflow-wrap:anywhere;text-decoration:underline;text-underline-offset:4px}
+.mod-actions a:focus-visible{outline:3px solid var(--orange);outline-offset:4px}
+.research-source-panel{background:var(--ink);color:var(--cream);border-left:7px solid var(--orange);padding:27px 30px;margin:0 0 32px}
+.research-source-panel strong{font:900 20px 'Courier New',monospace;letter-spacing:.4px}
+.research-source-panel p{max-width:880px;line-height:1.7;margin:15px 0;color:#e1e4d3}
+.research-source-panel a:not(.btn){color:#ffd5a7}
+.research-source-panel .mod-actions{margin-top:20px}
+.research-source-panel .mod-actions a{color:#ffe0b6}
+.research-source-panel .btn{color:#fff}
+.portal-era-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.era-panel{background:var(--paper2);padding:28px;border:1px solid var(--line);border-top:5px solid var(--orange);min-width:0}
+.era-panel h3{font:900 clamp(26px,3vw,38px)/1.06 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;margin:15px 0}
+.era-panel p{line-height:1.7;color:var(--muted)}
+.era-panel a{font:800 11px 'Courier New',monospace;color:var(--orange2);text-decoration:underline;text-underline-offset:4px}
+.mod-research-heading{margin-top:90px}
+.exposure-card{border-left:7px solid var(--orange)}
+.portal-beta-media{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.8fr);gap:38px;align-items:center;background:var(--paper2);border:1px solid var(--line);padding:24px;margin:70px 0}
+.portal-beta-media figure{min-width:0;margin:0}
+.portal-beta-media img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;background:#26382e}
+.portal-beta-media figcaption{font:12px/1.65 'Courier New',monospace;color:var(--muted);padding:12px 0}
+.portal-beta-media h2{font:900 clamp(38px,5vw,68px)/1 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;margin:14px 0}
+.portal-beta-media h2 em{color:var(--orange);font-style:normal}
+.portal-beta-media a,.research-sources a{color:var(--orange2)}
+.research-sources{border-top:3px solid var(--line);padding-top:30px}
+.research-sources h2{font:900 clamp(30px,4vw,50px)/1 Impact,'Arial Narrow',sans-serif;text-transform:uppercase}
+.research-sources p{max-width:920px;line-height:1.8}
+html[data-theme=dark] .research-source-panel{background:#253c34;color:#f7ecdb;border-color:#d77a37}
+html[data-theme=dark] .research-source-panel p{color:#e4e5d7}
+html[data-theme=dark] .research-source-panel a:not(.btn){color:#ffcf9a}
+html[data-theme=dark] .research-source-panel .btn{color:#fff9eb}
+html[data-theme=dark] .community-mods-section{background:#131d1b;color:#e6dbc5}
+html[data-theme=dark] .community-mod-card,
+html[data-theme=dark] .era-panel,
+html[data-theme=dark] .portal-beta-media{background:#1c2925;color:#e6dbc5;border-color:#566b5c}
+html[data-theme=dark] .community-mod-card p,
+html[data-theme=dark] .era-panel p,
+html[data-theme=dark] .portal-beta-media figcaption{color:#cad2c0}
+html[data-theme=dark] .mod-status{color:#f3e4c9;border-color:#6b826c}
+html[data-theme=dark] .mod-actions a,
+html[data-theme=dark] .era-panel a,
+html[data-theme=dark] .portal-beta-media a,
+html[data-theme=dark] .research-sources a{color:#f0b77d}
+@media(max-width:900px){.portal-beta-media{grid-template-columns:1fr;gap:24px}.mod-research-heading{margin-top:65px}}
+@media(max-width:760px){.portal-era-grid{grid-template-columns:1fr}.research-source-panel,.era-panel,.community-mod-card{padding:22px}.portal-beta-media{padding:16px;margin:40px 0}.research-source-panel .btn{width:100%;justify-content:space-between}.community-mod-card{min-height:0}.mod-research-heading{margin-top:55px}}
+@media(max-width:430px){.community-mods-section .section-head h2{font-size:clamp(40px,12vw,60px)}.mod-actions a{font-size:10px}.mod-status{font-size:9px}}
