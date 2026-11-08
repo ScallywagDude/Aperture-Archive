@@ -1,0 +1,37 @@
+{
+  "fstop": {
+    "src": "https://steamuserimages-a.akamaihd.net/ugc/1303178965577920286/25FBFC14D1ACEB8A3E19CDF616E43C3F5BB77B81/",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2149505634",
+    "title": "F-STOP era equipment concepts",
+    "credit": "Development asset concepts, reproduced in a Steam community archival guide",
+    "era": "EARLY DEVELOPMENT"
+  },
+  "intro": {
+    "src": "https://valvearchive.com/Games/Portal%202/Screenshots/F-STOP/F-STOP_Intro.png",
+    "link": "https://valvearchive.com/Games/Portal%202/Screenshots/F-STOP/",
+    "title": "F-STOP Intro archive image",
+    "credit": "Valve Archive, Portal 2 / Screenshots / F-STOP",
+    "era": "F-STOP"
+  },
+  "cave": {
+    "src": "https://valvearchive.com/Games/Portal%202/Art/Cave%20Johnson/early_cave.png",
+    "link": "https://valvearchive.com/Games/Portal%202/Art/Cave%20Johnson/",
+    "title": "Early Cave Johnson illustration",
+    "credit": "Valve Archive, Portal 2 / Art / Cave Johnson",
+    "era": "DEVELOPMENT ART"
+  },
+  "environment": {
+    "src": "https://www.co-optimus.com/images/gallery/6980xPortal%205.jpg",
+    "link": "https://www.co-optimus.com/article/7976/dark-horse-s-the-art-of-portal-2-portrays-aperture-science-from-unseen-perspectives.html",
+    "title": "Old Aperture environmental concept",
+    "credit": "Portal 2 concept art published in coverage of The Art of Portal 2",
+    "era": "OLD APERTURE"
+  },
+  "beam": {
+    "src": "https://hl-inside.me/gallery/portal2-concept-arts/images/community_image_1362423332.jpg",
+    "link": "https://hl-inside.me/gallery/portal2-concept-arts/",
+    "title": "Thermal Discouragement Beam concept",
+    "credit": "Portal 2 concept image preserved in Half-Life Inside gallery",
+    "era": "TESTING ELEMENT"
+  }
+}
