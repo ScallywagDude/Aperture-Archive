@@ -1132,3 +1132,36 @@ html[data-theme=dark] .build-crossref p{color:#cdd7cb}
 .corehub-source-key a{display:inline-block;color:var(--orange2);text-decoration:underline;text-underline-offset:3px}
 html[data-theme=dark] .corehub-source-key{color:#c4d1c0}
 html[data-theme=dark] .corehub-source-key strong{color:#f0e8d8}
+
+
+/* 2026 retail-era design archive appended to post-CoreHub prototypes */
+.retail-art-context{margin:65px 0 70px;min-width:0;border-top:9px solid #df8852;padding-top:34px;position:relative}
+.retail-art-context:before{content:"";pointer-events:none;position:absolute;right:0;top:0;width:180px;height:24px;opacity:.36;background:repeating-linear-gradient(135deg,#7a987e 0 2px,transparent 2px 13px)}
+.retail-art-intro{padding:15px 0 30px;max-width:850px}
+.retail-art-intro .eyebrow{color:var(--orange2)}
+.retail-art-intro h2{font:900 clamp(46px,5.4vw,76px)/.94 Impact,'Arial Narrow',sans-serif;margin:20px 0 18px}
+.retail-art-intro h2 em{color:var(--orange);font-style:normal}
+.retail-art-intro p{font-size:15px;line-height:1.8;color:var(--muted);max-width:850px}
+.retail-art-intro strong{color:var(--ink)}
+.retail-art-intro>a{font:900 11px 'Courier New',monospace;color:var(--orange2);text-decoration:underline;text-underline-offset:4px}
+.retail-art-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.retail-art-card{background:var(--paper2);border:1px solid var(--line);box-shadow:5px 5px 0 var(--line);margin:0;min-width:0;overflow:hidden}
+.retail-art-card>a:first-child{display:block;overflow:hidden;aspect-ratio:1.6;background:#233c33}
+.retail-art-card img{width:100%;height:100%;display:block;object-fit:cover;object-position:center;transition:transform .2s}
+.retail-art-card:hover img,.retail-art-card:focus-within img{transform:scale(1.03)}
+.retail-art-card figcaption{padding:20px 21px 23px;border-top:5px solid var(--orange);display:flex;flex-direction:column;min-height:165px}
+.retail-art-card figcaption>span{color:var(--orange2);font:900 9px/1.6 'Courier New',monospace;letter-spacing:.45px}
+.retail-art-card figcaption strong{font:900 clamp(23px,2.8vw,31px)/1.05 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;margin:11px 0}
+.retail-art-card figcaption p{font-size:12px;line-height:1.65;color:var(--muted);margin:0 0 15px}
+.retail-art-card figcaption a{margin-top:auto;font:900 10px 'Courier New',monospace;color:var(--orange2);overflow-wrap:anywhere}
+.retail-art-feature{grid-column:1/-1}
+.retail-art-feature>a:first-child{aspect-ratio:1.9;max-height:470px}
+.retail-art-feature figcaption{min-height:0}
+.retail-art-footer{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;padding:27px 0 0;color:var(--muted);font:900 10px/1.7 'Courier New',monospace}
+.retail-art-footer a{color:var(--orange2)}
+html[data-theme=dark] .retail-art-card{background:#243b30;border-color:#597463;box-shadow:5px 5px 0 #0b1b13}
+html[data-theme=dark] .retail-art-card figcaption p,html[data-theme=dark] .retail-art-intro p{color:#cad9c9}
+html[data-theme=dark] .retail-art-intro strong{color:#f4e8d1}
+@media(max-width:750px){.retail-art-context{margin:45px 0}.retail-art-grid{grid-template-columns:1fr}.retail-art-feature{grid-column:auto}.retail-art-card>a:first-child,.retail-art-feature>a:first-child{aspect-ratio:1.5}.retail-art-card figcaption{min-height:0}}
+@media(max-width:420px){.retail-art-card figcaption{padding:16px}.retail-art-card figcaption strong{font-size:26px}}
+@media(prefers-reduced-motion:reduce){.retail-art-card img{transition:none}}
