@@ -1,0 +1,32 @@
+/* CORE HUB 852_0 / research evidence board
+   The visual language follows rough development maps and lab test photography.
+   Original artifacts, fan comparisons, and research claims retain source links. */
+.corehub-media-ledger{margin:72px 0 70px;padding:clamp(28px,4.3vw,60px);border:9px solid #2b5142;background:linear-gradient(125deg,#234539,#183e35 65%,#164333);color:#f1ead6;position:relative;min-width:0;overflow:hidden}
+.corehub-media-ledger:before{content:"";pointer-events:none;position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(239,207,150,.06) 1px,transparent 1px),linear-gradient(0deg,rgba(239,207,150,.06) 1px,transparent 1px);background-size:46px 46px}
+.corehub-media-ledger>*{position:relative;z-index:1}
+.corehub-media-header{max-width:930px;border-bottom:2px solid #648e78;padding-bottom:30px;margin-bottom:33px}
+.corehub-media-header .eyebrow{color:#ffbe8d}
+.corehub-media-header h2{margin:17px 0 20px;font:900 clamp(48px,6.5vw,94px)/.95 Impact,'Arial Narrow',sans-serif;text-transform:uppercase}
+.corehub-media-header h2 em{color:#ebaf82;font-style:normal}
+.corehub-media-header p{color:#d9e2d4;line-height:1.85;font-size:14px;max-width:800px}
+.corehub-media-header>a{font:900 10px/1.7 'Courier New',monospace;color:#ffcd9b;text-decoration:underline;text-underline-offset:4px}
+.corehub-media-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:start;gap:clamp(13px,2vw,24px)}
+.corehub-media-entry{margin:0;min-width:0;background:#f4e7cd;border:9px solid #f4e7cd;box-shadow:6px 9px 0 #0a281d;transform:rotate(-.4deg);transition:transform .16s ease,box-shadow .16s ease}
+.corehub-media-entry:nth-child(even){transform:rotate(.5deg)}
+.corehub-media-entry:hover,.corehub-media-entry:focus-within{transform:rotate(0) translateY(-3px);box-shadow:6px 12px 0 #081f19}
+.corehub-media-photo{position:relative;display:block;aspect-ratio:1.5;overflow:hidden;background:linear-gradient(135deg,#607969,#2e4c43);color:#fff0db}
+.corehub-media-photo img{position:relative;z-index:2;width:100%;height:100%;object-fit:cover;display:block}
+.corehub-media-photo img.corehub-preview-missing{display:none}
+.corehub-media-noimage{position:absolute;inset:0;display:grid;place-content:center;text-align:center;padding:22px;z-index:1;font:900 12px/1.75 'Courier New',monospace;letter-spacing:.35px}
+.corehub-media-entry figcaption{color:#2a4f3c;background:#f1e5c7;display:flex;flex-direction:column;gap:10px;padding:15px 11px 17px;border-top:5px solid #d88855}
+.corehub-media-entry figcaption>span{color:#995232;font:900 9px/1.5 'Courier New',monospace;letter-spacing:.65px}
+.corehub-media-entry figcaption strong{font:900 clamp(21px,2.4vw,30px)/1.05 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;overflow-wrap:anywhere}
+.corehub-media-entry figcaption a{margin-top:9px;font:900 10px/1.5 'Courier New',monospace;color:#ad6040;text-decoration:underline;text-underline-offset:4px}
+.corehub-media-entry.corehub-media-feature{grid-column:span 2}
+.corehub-media-entry.corehub-media-feature .corehub-media-photo{aspect-ratio:2.1}
+.corehub-media-entry.corehub-media-feature figcaption{min-height:110px}
+.corehub-media-note{margin:34px 0 0;font:800 10px/1.75 'Courier New',monospace;color:#d3e3cb;padding-top:19px;border-top:1px solid #65826d}
+html[data-theme="dark"] .corehub-media-ledger{border-color:#638c6e;background:linear-gradient(135deg,#122d21,#0c241c)}
+@media(max-width:1020px){.corehub-media-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.corehub-media-ledger{margin:50px 0 60px;padding:24px 16px;border-width:6px}.corehub-media-grid{grid-template-columns:minmax(0,1fr)}.corehub-media-entry.corehub-media-feature{grid-column:auto}.corehub-media-entry.corehub-media-feature .corehub-media-photo{aspect-ratio:1.5}.corehub-media-header h2{font-size:clamp(46px,11vw,73px)}.corehub-media-entry{transform:none!important}}
+@media(prefers-reduced-motion:reduce){.corehub-media-entry{transition:none}}
