@@ -681,3 +681,37 @@ html[data-theme="dark"] .site-header .brand-name span{color:#eaa06a}
  .site-header .brand-name strong{font-size:16px}
  .site-header .brand-name span{font-size:12px;letter-spacing:.8px}
 }
+
+
+/* F-STOP concept-art museum and provenance collections */
+.fstop-concept-section{border-top:6px solid var(--orange)}
+.fstop-art-provenance{padding:19px 23px;margin:10px 0 30px;background:var(--paper2);border-left:5px solid var(--orange);color:var(--ink)}
+.fstop-art-provenance strong{font:900 12px/1.5 'Courier New',monospace;letter-spacing:.4px}
+.fstop-art-provenance p{line-height:1.8;font-size:13px;max-width:960px;margin:10px 0 0}
+.fstop-art-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:23px}
+.fstop-art-piece{margin:0;min-width:0;background:var(--paper2);border:2px solid var(--line);box-shadow:6px 6px 0 var(--line)}
+.fstop-art-piece>a:first-child{display:block;min-width:0;background:#0d201b;overflow:hidden}
+.fstop-art-piece>a:first-child img{display:block;width:100%;height:clamp(245px,29vw,425px);object-fit:contain}
+.fstop-art-piece figcaption{padding:21px 24px}
+.fstop-art-piece figcaption span{display:block;color:var(--orange2);font:900 10px 'Courier New',monospace;margin-bottom:9px}
+.fstop-art-piece figcaption strong{display:block;font:900 clamp(26px,3vw,37px)/1 Impact,'Arial Narrow',sans-serif;text-transform:uppercase}
+.fstop-art-piece figcaption p{font-size:13px;line-height:1.7;color:var(--muted)}
+.fstop-art-piece figcaption a{font:800 10px/1.7 'Courier New',monospace;color:var(--orange2)}
+.fstop-art-collections-head{margin-top:85px}
+.fstop-archive-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.fstop-archive-grid>a{display:flex;flex-direction:column;min-width:0;text-decoration:none;padding:24px;background:var(--paper2);border:1px solid var(--line);border-top:5px solid var(--orange);color:var(--ink)}
+.fstop-archive-grid>a:hover,.fstop-archive-grid>a:focus-visible{background:var(--paper);border-color:var(--orange2)}
+.fstop-archive-grid span{font:900 9px/1.6 'Courier New',monospace;color:var(--orange2)}
+.fstop-archive-grid strong{display:block;font:900 clamp(23px,2.5vw,30px)/1 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;margin:13px 0}
+.fstop-archive-grid p{font-size:13px;line-height:1.65;color:var(--muted)}
+.fstop-archive-grid b{margin-top:auto;font:900 10px 'Courier New',monospace;color:var(--orange2);padding-top:15px}
+.fstop-art-film{padding:75px 0}
+.fstop-art-film .section-head .head-copy{color:#e8dfcd}
+.fstop-film-wrap{max-width:920px}
+.fstop-film-wrap>p{font-size:13px;color:#e8dfcd;line-height:1.7;margin-top:20px}
+.fstop-film-wrap>p a{color:#ffbb8c}
+html[data-theme=dark] .fstop-art-provenance,html[data-theme=dark] .fstop-art-piece,html[data-theme=dark] .fstop-archive-grid>a{background:#24362e;color:#f5e7d3;border-color:#647e69;box-shadow:4px 4px 0 #091813}
+html[data-theme=dark] .fstop-art-piece figcaption p,html[data-theme=dark] .fstop-archive-grid p{color:#cdd4c4}
+html[data-theme=dark] .fstop-archive-grid span,html[data-theme=dark] .fstop-archive-grid b,html[data-theme=dark] .fstop-art-piece figcaption span,html[data-theme=dark] .fstop-art-piece figcaption a{color:#f1ad7b}
+@media(max-width:960px){.fstop-archive-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.fstop-art-gallery,.fstop-archive-grid{grid-template-columns:1fr}.fstop-art-collections-head{margin-top:60px}.fstop-art-piece>a:first-child img{height:280px}.fstop-art-piece figcaption{padding:18px}}
