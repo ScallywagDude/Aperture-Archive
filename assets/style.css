@@ -921,3 +921,10 @@ html[data-theme=dark] .mega-build-notice-link:hover,html[data-theme=dark] .mega-
  .footer-links{grid-template-columns:minmax(0,1fr)}
 }
 @media(prefers-reduced-motion:reduce){.mega-build-notice-link{transition:none}}
+
+/* Front Desk only: remove the concentric spiral decoration without touching
+   timeline, dossiers, other page heroes, or other site backgrounds. */
+body[data-page="home"] .hero::before{
+  content:none;
+  display:none;
+}
