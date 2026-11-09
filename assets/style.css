@@ -1114,3 +1114,13 @@ html[data-theme=dark] .corehub-route-flow>.corehub-route-branch{background:#523d
 @media(max-width:960px){.corehub-evidence-grid{grid-template-columns:minmax(0,1fr)}.corehub-neighbor-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:660px){.corehub-quickfacts{grid-template-columns:1fr;gap:0}.corehub-quickfacts>div{padding:17px 20px;border-bottom:1px solid #6b826c}.corehub-quickfacts b{font-size:35px}.corehub-route{padding:23px;box-shadow:5px 5px 0 #64806c}.corehub-route-flow,.corehub-neighbor-links{grid-template-columns:minmax(0,1fr)}.corehub-evidence-card{padding:23px}.corehub-evidence-card h3{font-size:32px}.corehub-neighbor{margin-top:45px}}
 @media(prefers-reduced-motion:reduce){.corehub-neighbor-links>a{transition:none}}
+
+
+/* 2009 → 2010 shared chamber lineage / research attribution */
+.build-crossref{margin:25px 0 31px;padding:25px 26px;border-left:7px solid #ca7847;background:var(--paper2);border-top:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-width:0}
+.build-crossref>span{font:900 10px/1.6 'Courier New',monospace;letter-spacing:.5px;color:var(--orange2)}
+.build-crossref p{font-size:14px;line-height:1.8;max-width:850px;margin:12px 0 16px;color:var(--muted)}
+.build-crossref a{font:900 10px/1.75 'Courier New',monospace;color:var(--orange2);text-decoration:underline;text-underline-offset:3px}
+html[data-theme=dark] .build-crossref{background:#20352a;border-color:#5f7d66}
+html[data-theme=dark] .build-crossref p{color:#cdd7cb}
+@media(max-width:600px){.build-crossref{padding:19px 20px}.build-crossref p{font-size:13px}}
