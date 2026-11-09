@@ -21,7 +21,7 @@ a{color:inherit}button,input{font:inherit}button{cursor:pointer}img{max-width:10
 .eyebrow{display:inline-block;font:800 11px/1.3 'Courier New',monospace;letter-spacing:1.5px;text-transform:uppercase}
 h1,h2,h3,p,figure{margin-top:0}h1,h2,h3{line-height:1.02}h1,h2,.hero-sub{font-family:Impact,'Arial Narrow','Trebuchet MS',sans-serif;text-transform:uppercase;font-weight:900;letter-spacing:-.01em}h1 em,h2 em{font-style:normal;color:var(--orange)}.section-head h2,.callout-grid h2,.specimen-feature h2,.release-board h2,.forum-guide h2,.credits-section h2,.about-story h2{font-size:clamp(44px,6vw,88px);line-height:.98;margin:22px 0 0}
 .btn{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;min-height:53px;padding:0 20px;text-decoration:none;font:800 12px/1 'Courier New',monospace;letter-spacing:.3px;border:2px solid transparent;transition:transform .12s,box-shadow .12s}.btn:hover{transform:translateY(-2px)}.btn>span{font-size:19px}.btn-primary{background:var(--orange);color:white;box-shadow:4px 4px 0 #1a322c}.btn-outline{border-color:var(--paper2);color:var(--paper2);background:transparent}.btn-outline:hover{background:var(--paper2);color:var(--ink)}.btn-pale{background:var(--cream);color:var(--ink);border-color:var(--cream)}.btn-cream{background:var(--cream);color:var(--ink);border-color:var(--cream)}.btn-text{color:var(--orange2);padding:0;background:transparent;border:0;min-height:36px}.actions{display:flex;gap:15px;flex-wrap:wrap}
-.hero{background:var(--ink);color:var(--cream);position:relative;overflow:hidden}.hero::before{content:'';position:absolute;right:-100px;top:-120px;width:600px;height:600px;opacity:.15;background:repeating-radial-gradient(circle,transparent 0 20px,#9da883 21px 22px);pointer-events:none}
+.hero{background:var(--ink);color:var(--cream);position:relative;overflow:hidden}body:not([data-page="home"]) .hero::before{content:'';position:absolute;right:-100px;top:-120px;width:600px;height:600px;opacity:.15;background:repeating-radial-gradient(circle,transparent 0 20px,#9da883 21px 22px);pointer-events:none}
 .hero-grid{display:grid;grid-template-columns:1.07fr .93fr;gap:55px;align-items:center;min-height:640px;padding-block:60px 70px}
 .slanted-label .eyebrow{padding:7px 12px;background:var(--orange);color:white;transform:rotate(-2deg);font-size:10px}.hero-prenote{font:800 12px 'Courier New',monospace;letter-spacing:4px;color:#bdc5b2;margin:27px 0 14px}.hero h1{font-size:clamp(75px,8.4vw,145px);line-height:.82;margin:0 0 24px;letter-spacing:-.03em}.hero h1 em{color:var(--orange)}.hero-sub{font-size:clamp(23px,3vw,43px);letter-spacing:0;margin:0 0 15px}.hero-body{color:#e1e3cf;max-width:560px;font-size:16px;line-height:1.8;margin-bottom:28px}.microline{display:flex;gap:25px;margin-top:48px;color:#adb9ac;font:700 9px 'Courier New',monospace;letter-spacing:1px}
 .hero-art{position:relative;border:9px solid #c6bfa9;background:#d8d1ba;padding:12px;transform:rotate(1deg);box-shadow:18px 18px 0 #0c2522}.hero-art-top{display:flex;justify-content:space-between;gap:12px;font:700 9px 'Courier New',monospace;color:#263c35;letter-spacing:1px;padding-bottom:9px}.hero-figure .artwork-media{height:398px}.hero-figure .artwork-media img{filter:sepia(.25) contrast(1.05)}.hero-figure figcaption{font-size:9px}.hero-corner{position:absolute;bottom:-23px;right:-24px;background:var(--orange);border:5px solid var(--cream);color:var(--cream);padding:12px;font:900 28px/.8 Impact,sans-serif;text-align:center}.hero-corner small{font:700 12px 'Courier New',monospace}
@@ -785,7 +785,7 @@ html[data-theme="dark"] .site-header .brand-section{color:#f0a873}
 :where(.record-card,.dossier-note,.research-citation,.screenshot-source-index,.footer-legal,.fstop-art-piece figcaption) a{overflow-wrap:anywhere}
 :where(.artwork,.archive-shot,.fstop-art-piece) img{max-width:100%}
 .hero{isolation:isolate}
-.hero::before{width:min(56vw,620px);height:min(56vw,620px);right:-7%;top:4%;background:repeating-radial-gradient(circle,transparent 0 20px,#9da883 21px 22px)}
+body:not([data-page="home"]) .hero::before{width:min(56vw,620px);height:min(56vw,620px);right:-7%;top:4%;background:repeating-radial-gradient(circle,transparent 0 20px,#9da883 21px 22px)}
 .hero>.wrap{position:relative;z-index:1}
 .hero-grid{grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr);gap:clamp(30px,4vw,58px);padding-block:clamp(50px,6vw,86px)}
 .hero-copy{min-width:0}
@@ -843,7 +843,7 @@ html[data-theme=dark] .mega-build-notice-link:hover,html[data-theme=dark] .mega-
  .hero-copy{max-width:800px}
  .hero h1{font-size:clamp(66px,10.5vw,113px)}
  .hero-art{max-width:760px;margin-inline:auto}
- .hero::before{right:-15%;width:520px;height:520px}
+ body:not([data-page="home"]) .hero::before{right:-15%;width:520px;height:520px}
  .specimen-grid{grid-template-columns:minmax(0,1fr);gap:45px;padding-block:74px}
  .specimen-photo{max-width:740px}
  .mega-build-notice-inner{grid-template-columns:minmax(0,1fr) auto;gap:12px 20px}
@@ -864,7 +864,7 @@ html[data-theme=dark] .mega-build-notice-link:hover,html[data-theme=dark] .mega-
 @media(max-width:760px){
  .hero-grid{grid-template-columns:minmax(0,1fr);padding-block:54px 66px;gap:38px}
  .hero h1{font-size:clamp(57px,12.5vw,94px)}
- .hero::before{width:360px;height:360px;top:9%;right:-125px}
+ body:not([data-page="home"]) .hero::before{width:360px;height:360px;top:9%;right:-125px}
  .hero-art{width:min(100%,620px);max-width:100%;margin-inline:auto;padding:8px;border-width:6px}
  .hero-figure .artwork-media{aspect-ratio:1.32;height:auto;min-height:0}
  .hero-art-top{font-size:9px}
@@ -947,3 +947,6 @@ body[data-page="home"] .specimen-feature .feature-figure .artwork-media > img{
   object-fit:cover;
   object-position:center;
 }
+
+/* A genuine removal, not just a visual override. The Front Desk pseudo-element has no generated box. */
+body[data-page="home"] > main > .hero::before{content:none!important;display:none!important;background:none!important;background-image:none!important;visibility:hidden!important}
