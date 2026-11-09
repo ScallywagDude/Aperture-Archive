@@ -1060,3 +1060,57 @@ html[data-theme=dark] .ap-files-community-grid>a:last-child :is(span,p,b){color:
 .ap-files-era-strip b{min-width:105px}
 }
 @media(prefers-reduced-motion:reduce){.ap-files-build-list a,.ap-files-community-grid>a{transition:none}}
+
+
+/* July 2009 Core Hub: archival dossier treatment */
+body[data-page=build] .corehub-research,body[data-page=build] .corehub-route,body[data-page=build] .corehub-neighbor{min-width:0}
+.corehub-section-heading{padding:28px 0 32px;border-top:5px solid var(--ink);margin-top:34px}
+.corehub-section-heading .dossier-h2{margin:15px 0 14px}
+.corehub-section-heading>p{font-size:15px;line-height:1.85;max-width:850px;color:var(--muted);margin:0}
+.corehub-quickfacts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--ink);border:3px solid var(--ink);margin-bottom:32px}
+.corehub-quickfacts>div{display:flex;flex-direction:column;gap:8px;padding:20px 21px;background:#e4d3ac;color:#24382c;min-width:0}
+.corehub-quickfacts b{font:900 clamp(29px,4vw,43px)/1 Impact,'Arial Narrow',sans-serif;letter-spacing:-.02em}
+.corehub-quickfacts span{font:900 9px/1.4 'Courier New',monospace;letter-spacing:1px}
+.corehub-evidence-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.corehub-evidence-card{background:var(--paper2);border:1px solid var(--line);border-top:5px solid #d78349;padding:25px 26px;min-width:0;display:flex;flex-direction:column;box-shadow:4px 4px 0 var(--line)}
+.corehub-evidence-card.corehub-card-lead{border-top-color:#6b8b75}
+.corehub-evidence-index{font:900 10px/1.6 'Courier New',monospace;color:var(--orange2);letter-spacing:.6px}
+.corehub-evidence-card h3{margin:14px 0 13px;font:900 clamp(25px,2.8vw,37px)/1 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.15px}
+.corehub-evidence-card p{margin:0 0 20px;line-height:1.75;color:var(--muted);font-size:13.5px}
+.corehub-evidence-card code{font-size:.88em;overflow-wrap:anywhere;white-space:normal}
+.corehub-evidence-card>a{margin-top:auto;display:inline-flex;width:fit-content;max-width:100%;color:var(--orange2);font:900 10px/1.6 'Courier New',monospace;text-decoration:underline;text-underline-offset:4px}
+.corehub-route{margin-top:48px;padding:clamp(24px,4vw,40px);background:#173127;color:#f4ebd8;border-top:8px solid #da8451;box-shadow:8px 8px 0 #64806c}
+.corehub-route .eyebrow{color:#e5ae80}
+.corehub-route h2{font:900 clamp(35px,5vw,58px)/1 Impact,'Arial Narrow',sans-serif;margin:18px 0}
+.corehub-route h2 em{color:#ffb17b;font-style:normal}
+.corehub-route>p{line-height:1.8;max-width:750px;color:#d9e0d2;font-size:14px}
+.corehub-route-flow{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:25px 0 20px}
+.corehub-route-flow>div{background:#e6dac0;color:#20392f;padding:24px;min-width:0;border-left:6px solid #82a28c}
+.corehub-route-flow>.corehub-route-branch{background:#2b493c;color:#f7eee1;border-left-color:#d88c4e}
+.corehub-route-flow span{display:block;font:900 10px 'Courier New',monospace;letter-spacing:.6px;margin-bottom:14px}
+.corehub-route-flow strong{display:block;font:900 clamp(30px,3.7vw,48px)/1 Impact,'Arial Narrow',sans-serif;margin-bottom:13px}
+.corehub-route-flow small{font:800 11px/1.65 'Courier New',monospace;display:block;overflow-wrap:anywhere}
+.corehub-route>a{color:#ffbf93;font:900 10px/2 'Courier New',monospace;text-decoration:underline;text-underline-offset:4px}
+.corehub-neighbor{margin:60px 0 42px;border-top:5px solid var(--ink);padding-top:26px}
+.corehub-neighbor h2{font:900 clamp(36px,5vw,61px)/1 Impact,'Arial Narrow',sans-serif;margin:14px 0}
+.corehub-neighbor>p{font-size:14px;color:var(--muted);line-height:1.8;max-width:860px}
+.corehub-neighbor-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:22px 0}
+.corehub-neighbor-links>a{display:flex;flex-direction:column;min-width:0;padding:22px;background:var(--paper2);border:2px solid var(--line);text-decoration:none;transition:transform .15s,border-color .15s}
+.corehub-neighbor-links>a:hover,.corehub-neighbor-links>a:focus-visible{transform:translateY(-3px);border-color:var(--orange)}
+.corehub-neighbor-links strong{font:900 clamp(20px,2.5vw,28px)/1 Impact,'Arial Narrow',sans-serif}
+.corehub-neighbor-links span{color:var(--orange2);margin-top:14px;font:800 10px/1.6 'Courier New',monospace}
+.corehub-neighbor .corehub-citation{font:800 10px 'Courier New',monospace;color:var(--orange2);text-decoration:underline}
+.corehub-screenshot-head{display:flex;flex-direction:column;padding-top:16px;border-top:5px solid var(--ink);margin:35px 0 13px}
+.corehub-screenshot-head .dossier-h2{margin:10px 0 2px}
+body[data-page=build] .corehub-screenshot-head~.screenshots .archive-shot{border-top-width:7px}
+html[data-theme=dark] .corehub-section-heading>p,html[data-theme=dark] .corehub-neighbor>p{color:#c7d3c4}
+html[data-theme=dark] .corehub-quickfacts{background:#64816b;border-color:#64816b}
+html[data-theme=dark] .corehub-quickfacts>div{background:#243d32;color:#f3e9d6}
+html[data-theme=dark] .corehub-evidence-card,html[data-theme=dark] .corehub-neighbor-links>a{background:#24382f;color:#ede5d5;border-color:#64816b;box-shadow:4px 4px 0 #0c1712}
+html[data-theme=dark] .corehub-evidence-card p{color:#d1dbc9}
+html[data-theme=dark] .corehub-route{background:#0f251c;box-shadow:8px 8px 0 #39594b}
+html[data-theme=dark] .corehub-route-flow>div{background:#304839;color:#f4ecda;border-left-color:#78a289}
+html[data-theme=dark] .corehub-route-flow>.corehub-route-branch{background:#523d2c;border-left-color:#e69a60}
+@media(max-width:960px){.corehub-evidence-grid{grid-template-columns:minmax(0,1fr)}.corehub-neighbor-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:660px){.corehub-quickfacts{grid-template-columns:1fr;gap:0}.corehub-quickfacts>div{padding:17px 20px;border-bottom:1px solid #6b826c}.corehub-quickfacts b{font-size:35px}.corehub-route{padding:23px;box-shadow:5px 5px 0 #64806c}.corehub-route-flow,.corehub-neighbor-links{grid-template-columns:minmax(0,1fr)}.corehub-evidence-card{padding:23px}.corehub-evidence-card h3{font-size:32px}.corehub-neighbor{margin-top:45px}}
+@media(prefers-reduced-motion:reduce){.corehub-neighbor-links>a{transition:none}}
