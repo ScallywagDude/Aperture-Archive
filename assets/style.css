@@ -759,3 +759,9 @@ html[data-theme=dark] .fstop-gallery-source{color:#cdd7c5}
 @media(max-width:1050px){.fstop-concept-section .fstop-art-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:800px){.fstop-camera-inner{grid-template-columns:1fr}.fstop-camera-showcase{padding:48px 0}.fstop-camera-shot{max-width:720px;transform:none}.fstop-camera-copy h2{font-size:clamp(49px,10vw,80px)}}
 @media(max-width:700px){.fstop-concept-section .fstop-art-gallery{grid-template-columns:1fr}.fstop-concept-section .fstop-art-record.featured-art{grid-column:auto}.fstop-concept-section .fstop-art-record.featured-art>a:first-child img,.fstop-concept-section .fstop-art-record>a:first-child img{height:290px}.fstop-leak-update{margin:-12px 0 42px;padding:25px}.fstop-news-links{gap:15px}.fstop-art-record figcaption{padding:18px}}
+
+
+/* Keep the A/A corner monogram inside the exhibit instead of overlapping its frame. */
+.hero-art .hero-corner{right:12px;bottom:12px;display:grid;place-items:center;width:70px;height:70px;min-width:0;padding:6px;line-height:1;transform:rotate(2deg);font:900 23px/1 Impact,'Arial Narrow',sans-serif;letter-spacing:-1px;text-shadow:none;box-shadow:3px 3px 0 rgba(10,25,20,.5);border-width:3px}
+.hero-art .hero-corner span{white-space:nowrap}
+@media(max-width:760px){.hero-art .hero-corner{right:9px;bottom:9px;width:56px;height:56px;font-size:19px}}
