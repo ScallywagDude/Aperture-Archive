@@ -928,3 +928,22 @@ body[data-page="home"] .hero::before{
   content:none;
   display:none;
 }
+
+/* Front Desk F-STOP still: crop the letterboxed 4:3 YouTube thumbnail to its 16:9 picture */
+body[data-page="home"] .specimen-feature .feature-figure .artwork-media{
+  position:relative;
+  width:100%;
+  height:auto;
+  min-height:0;
+  aspect-ratio:16 / 9;
+  overflow:hidden;
+}
+body[data-page="home"] .specimen-feature .feature-figure .artwork-media > img{
+  position:absolute;
+  inset:0;
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+}
