@@ -765,3 +765,15 @@ html[data-theme=dark] .fstop-gallery-source{color:#cdd7c5}
 .hero-art .hero-corner{right:12px;bottom:12px;display:grid;place-items:center;width:70px;height:70px;min-width:0;padding:6px;line-height:1;transform:rotate(2deg);font:900 23px/1 Impact,'Arial Narrow',sans-serif;letter-spacing:-1px;text-shadow:none;box-shadow:3px 3px 0 rgba(10,25,20,.5);border-width:3px}
 .hero-art .hero-corner span{white-space:nowrap}
 @media(max-width:760px){.hero-art .hero-corner{right:9px;bottom:9px;width:56px;height:56px;font-size:19px}}
+
+
+/* Aperture 1947: supplied Innovators wordmark, common responsive masthead */
+.site-header .brand{display:flex;align-items:center;gap:clamp(7px,1.5vw,18px);width:auto;min-width:0;max-width:100%;overflow:hidden;min-height:50px}
+.site-header .brand-wordmark{display:block;flex:0 1 auto;width:clamp(175px,21vw,245px);max-width:100%;height:auto;aspect-ratio:500/167;object-fit:contain;object-position:left center}
+.site-header .brand-section{font:900 clamp(11px,1.25vw,16px)/1 Impact,'Arial Narrow',sans-serif;letter-spacing:1px;border-left:2px solid var(--orange);padding-left:clamp(5px,1vw,13px);color:var(--orange2);white-space:nowrap;flex-shrink:0}
+html[data-theme="dark"] .site-header .brand-wordmark{filter:invert(1)}
+html[data-theme="dark"] .site-header .brand-section{color:#f0a873}
+@media(max-width:1100px){.site-header .brand-wordmark{width:clamp(150px,19vw,220px)}.site-header .brand-section{font-size:12px}}
+@media(max-width:760px){.site-header .brand-wordmark{width:min(100%,168px)}.site-header .brand-section{display:none}.site-header .head-inner{column-gap:9px}.site-header .brand{min-height:44px}}
+@media(max-width:420px){.site-header .brand-wordmark{width:min(100%,146px)}.site-header .head-inner{column-gap:6px}}
+@media(max-width:350px){.site-header .brand-wordmark{width:min(100%,124px)}}
