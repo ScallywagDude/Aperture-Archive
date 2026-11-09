@@ -3,7 +3,15 @@
   const cfg = window.APERTURE_ARCHIVE_CONFIG || {};
   const themeButton = document.querySelector('.theme-toggle');
   const getTheme = () => document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+  const syncThemeFavicon = () => {
+    const selectedDark = getTheme() === 'dark';
+    document.querySelectorAll('link[data-theme-favicon]').forEach(link => {
+      const src = selectedDark ? link.dataset.darkHref : link.dataset.lightHref;
+      if (src && link.getAttribute('href') !== src) link.setAttribute('href', src);
+    });
+  };
   const updateThemeButton = () => {
+    syncThemeFavicon();
     if (!themeButton) return;
     const dark = getTheme() === 'dark';
     themeButton.setAttribute('role', 'switch');
