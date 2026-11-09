@@ -38,7 +38,7 @@ body[data-page="fstop-source"] .fstop-atelier-hero::after{
 .fstop-atelier-eyebrow{display:inline-block;background:#fff4d8;color:#6b6d51;border:1px solid #8c9e7f;padding:8px 12px;font:900 10px/1.4 'Courier New',monospace;letter-spacing:1px}
 .fstop-atelier-copy h1{margin:21px 0 27px;color:#143d34;max-width:100%;letter-spacing:-.045em;line-height:.79;overflow-wrap:normal}
 .fstop-atelier-copy h1>span{display:block;font:900 clamp(80px,10.7vw,162px)/.9 Impact,'Arial Narrow',sans-serif;letter-spacing:-.085em;white-space:nowrap;color:#d07849}
-.fstop-atelier-copy h1>span .fstop-stop{display:inline-block;color:#2d6d62;transform:rotate(12deg);padding-inline:.025em}
+.fstop-atelier-copy h1>span .fstop-hyphen{display:inline-block;color:#2d6d62;transform:none;vertical-align:baseline;padding-inline:0;letter-spacing:-.04em}
 .fstop-atelier-copy h1>em{display:block;font:900 clamp(39px,4.3vw,70px)/.94 Impact,'Arial Narrow',sans-serif;letter-spacing:-.015em;color:#1d5447;margin-top:6px}
 .fstop-atelier-copy>p{font-size:clamp(15px,1.5vw,18px);font-weight:600;line-height:1.85;max-width:595px;color:#315a4d;margin:0 0 25px}
 .fstop-atelier-actions{display:flex;flex-wrap:wrap;gap:13px;margin:27px 0 39px}

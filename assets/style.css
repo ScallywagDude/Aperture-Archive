@@ -719,7 +719,7 @@ html[data-theme=dark] .fstop-archive-grid span,html[data-theme=dark] .fstop-arch
 
 /* F-STOP visual archive, November 2026: original art vs community reconstructions */
 .fstop-leak-update{position:relative;overflow:hidden;background:#163a32;color:#faf0d7;padding:clamp(26px,4.5vw,58px);margin:-15px 0 62px;border-left:8px solid #de9859;box-shadow:9px 9px 0 var(--line)}
-.fstop-leak-update:before{content:"F / STOP";position:absolute;right:-15px;bottom:-16px;font:900 clamp(84px,15vw,205px)/.8 Impact,'Arial Narrow',sans-serif;letter-spacing:-.08em;opacity:.055;pointer-events:none;white-space:nowrap}
+.fstop-leak-update:before{content:"F-STOP";position:absolute;right:-15px;bottom:-16px;font:900 clamp(84px,15vw,205px)/.8 Impact,'Arial Narrow',sans-serif;letter-spacing:-.08em;opacity:.055;pointer-events:none;white-space:nowrap}
 .fstop-leak-update .eyebrow{color:#f7b97e;position:relative;z-index:1}
 .fstop-leak-update h2{position:relative;z-index:1;font:900 clamp(43px,7vw,92px)/.92 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:-.01em;margin:18px 0 20px}
 .fstop-leak-update h2 em{color:#eaa16f;font-style:normal}
