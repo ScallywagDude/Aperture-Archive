@@ -597,3 +597,87 @@ html[data-theme=dark] .dossier-video-meta span{color:#f1b588}
 html[data-theme=dark] .dossier-video-meta a,html[data-theme=dark] .dossier-provenance a{color:#f1b588}
 @media(max-width:900px){.dossier-video-meta{grid-template-columns:1fr;gap:11px}.dossier-video-meta span{max-width:100%}}
 @media(max-width:700px){.dossier-field-grid{grid-template-columns:1fr}.dossier-field{padding:19px}.dossier-video-embed{border-width:5px;box-shadow:4px 4px 0 var(--line)}}
+
+
+/* Monochrome theme-aware Aperture icon and single clean archive lockup */
+.site-header .brand{
+ display:flex;
+ align-items:center;
+ gap:12px;
+ min-width:0;
+ width:max-content;
+ max-width:100%;
+ flex-shrink:1;
+ overflow:visible;
+ text-decoration:none;
+}
+.site-header .brand-icon{
+ display:block;
+ position:relative;
+ flex:0 0 55px;
+ width:55px;
+ height:55px;
+ aspect-ratio:1;
+}
+.site-header .brand-icon img{
+ display:block;
+ width:100%;
+ height:100%;
+ position:absolute;
+ inset:0;
+ object-fit:contain;
+}
+.site-header .brand-icon-dark{display:none}
+html[data-theme="dark"] .site-header .brand-icon-light{display:none}
+html[data-theme="dark"] .site-header .brand-icon-dark{display:block}
+.site-header .brand-name{
+ display:flex;
+ flex-direction:column;
+ gap:0;
+ flex:0 1 auto;
+ min-width:0;
+ white-space:nowrap;
+ line-height:.91;
+ border:0;
+ padding:0;
+}
+.site-header .brand-name strong{
+ display:block;
+ font:900 clamp(22px,2.35vw,32px)/1 Impact,'Arial Narrow',sans-serif;
+ letter-spacing:.2px;
+ color:var(--ink);
+}
+.site-header .brand-name span{
+ display:block;
+ font:900 clamp(17px,1.8vw,24px)/1 Impact,'Arial Narrow',sans-serif;
+ letter-spacing:3px;
+ margin-top:1px;
+ color:var(--orange2);
+}
+html[data-theme="dark"] .site-header .brand-name strong{color:#f4ecdd}
+html[data-theme="dark"] .site-header .brand-name span{color:#eaa06a}
+.site-header .brand:focus-visible{outline:3px solid var(--orange);outline-offset:4px}
+@media(max-width:1050px){
+ .site-header .brand-icon{width:49px;height:49px;flex-basis:49px}
+ .site-header .brand-name strong{font-size:26px}
+ .site-header .brand-name span{font-size:20px;letter-spacing:2.4px}
+}
+@media(max-width:760px){
+ .site-header .brand{gap:7px}
+ .site-header .brand-icon{width:40px;height:40px;flex-basis:40px}
+ .site-header .brand-name strong{font-size:21px}
+ .site-header .brand-name span{font-size:16px;letter-spacing:1.6px}
+ .site-header .head-inner{column-gap:9px}
+}
+@media(max-width:420px){
+ .site-header .brand-icon{width:34px;height:34px;flex-basis:34px}
+ .site-header .brand-name strong{font-size:18px}
+ .site-header .brand-name span{font-size:14px;letter-spacing:1.2px}
+ .site-header .brand{gap:5px}
+ .site-header .head-inner{column-gap:6px}
+}
+@media(max-width:345px){
+ .site-header .brand-icon{width:30px;height:30px;flex-basis:30px}
+ .site-header .brand-name strong{font-size:16px}
+ .site-header .brand-name span{font-size:12px;letter-spacing:.8px}
+}
