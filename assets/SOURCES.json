@@ -1,5 +1,5 @@
 {
-  "research_priority": "Provided PSBR and VCC Discord HTML exports; TCRF is not treated as an authoritative source here",
+  "research_priority": "Historical findings and image references sourced from the PSBR and VCC Discord servers, cross-checked against contemporaneous records where possible.",
   "research_sources": [
     {
       "name": "Portal Series Beta Research (PSBR)",
@@ -12,7 +12,7 @@
   ],
   "build_sources": [
     {
-      "title": "July 2009 \u00b7 Corehub",
+      "title": "July 2009 · Corehub",
       "code": "852_0",
       "sources": [
         "https://discord.com/channels/809092700003500084/1543351547604508693/1543362799164465333",
@@ -54,9 +54,12 @@
       "title": "September 24, 2010",
       "code": "841_1",
       "sources": [
-        "https://discord.com/channels/809092700003500084/1543351664998883529/1546608247971127448",
         "https://discord.com/channels/809092700003500084/1543351664998883529/1546608247971127448"
-      ]
+      ],
+      "mirror": {
+        "url": "https://archive.org/download/portal_2_september24_2010_prototype/portal2_september24_2010.7z",
+        "attribution": "User-provided Archive.org mirror for September 24"
+      }
     },
     {
       "title": "September 26, 2010",
@@ -90,7 +93,11 @@
         "https://discord.com/channels/809092700003500084/1543351725593862247/1543354220810338325",
         "https://discord.com/channels/809092700003500084/1543351725593862247/1544000056728879125",
         "https://discord.com/channels/809092700003500084/1543351725593862247/1545649000286257182"
-      ]
+      ],
+      "mirror": {
+        "url": "https://archive.org/download/portal_2_december3_2010_prototype/portal2_December3_2010.7z",
+        "attribution": "User-provided Archive.org mirror; filename says December 3, build cataloged December 2"
+      }
     },
     {
       "title": "January 2011",

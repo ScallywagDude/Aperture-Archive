@@ -19,7 +19,7 @@ Alongside the larger archive, we're documenting the Portal 2 prototype builds sp
 - **Message Board** — community discussion through [GitHub Discussions](https://github.com/ScallywagDude/Aperture-Archive/discussions).
 - **Dispatches** — archive news and preservation notes.
 
-The December 2010 records distinguish **December 1 (`852_6`)** from **December 2 (`852_7`)**. The provided GoFile mirror is labeled `852_6` in community records; a standalone `852_7` mirror has not been confirmed.
+The December 2010 records distinguish **December 1 (`852_6`)** from **December 2 (`852_7`)**. The supplied [September 24 (`841_1`) mirror](https://archive.org/download/portal_2_september24_2010_prototype/portal2_september24_2010.7z) is likewise distinct from September 26. The provided GoFile mirror is labeled `852_6` in community records; a direct Archive.org file has now been supplied for `852_7`.
 
 ## F-STOP recovery, November 2026
 
@@ -29,7 +29,7 @@ A [public playthrough by Beau Productions](https://www.youtube.com/watch?v=LulJ0
 
 ## Research and credits
 
-The historical build descriptions are compiled from the supplied HTML exports of two community archives:
+Many build descriptions and research findings come from discussions in these community servers:
 
 - **[Portal Series Beta Research (PSBR)](https://discord.gg/ZFfG2YhUt)**
 - **[Valve Cut Content (VCC)](https://discord.gg/scXwfXt)**
