@@ -12,13 +12,20 @@ Alongside the larger archive, we're documenting the Portal 2 prototype builds sp
 
 - **[Narbacular Drop](narbacular-drop.html)** — the original 2005 DigiPen puzzle game that inspired Portal, with the historic download, screenshots, and team credits.
 - **The Aperture Files** — the original Portal, F-STOP, hybrid experiments, Portal Paint, Portal 2 and other research topics.
-- **The Collection** — original development records and the 2008 F-STOP sources, dated Portal 2 build dossiers, **Community Fix-Ups**, and a separate **Community Mods** category with playable Portal 1 beta recreations and the Exposure fan-build archive.
+- **The Collection** — original development records, F-STOP source and map archives, dated Portal 2 build dossiers, **Community Fix-Ups**, and a separate **Community Mods** category with playable Portal 1 beta recreations and the Exposure fan-build archive.
+- **[F-STOP Visual Archive](fstop-source.html#fstop-concept-art)** — seven cataloged concept pieces from *The Final Hours of Portal 2*, an Eric Kirchmer art sheet, supplementary community reference material, the camera experiment, contemporary reports on the 2026 recovered prototype, and a public full-campaign playthrough.
 - **Portal 1 Beta Research** — [2005–2007 research](portal-beta.html), playable reconstructions of the Leipzig and X06 demonstrations, December 2006 map-source records, and community projects.
 - **Release Desk** — historical build mirrors, F-STOP source and maps, and community patches.
 - **Message Board** — community discussion through [GitHub Discussions](https://github.com/ScallywagDude/Aperture-Archive/discussions).
 - **Dispatches** — archive news and preservation notes.
 
 The December 2010 records distinguish **December 1 (`852_6`)** from **December 2 (`852_7`)**. The provided GoFile mirror is labeled `852_6` in community records; a standalone `852_7` mirror has not been confirmed.
+
+## F-STOP recovery, November 2026
+
+The historical Steam depot data surfaced in late August 2026. The missing F-STOP source code and map data circulated separately before community researchers assembled an unfinished but playable reconstruction by November 1, 2026. The site now treats this as a distinct event on the interactive timeline, rather than implying that no original prototype footage survives.
+
+A [public playthrough by Beau Productions](https://www.youtube.com/watch?v=LulJ0yJUcsA) documents the recovered build. The earlier LunchHouse *Exposure* documentary and community modifications are listed separately because they are different projects. Original concept-art records are credited individually to the [Combine OverWiki catalogue](https://combineoverwiki.net/wiki/Category:The_Final_Hours_of_Portal_2_images). Reporting is linked to [The Verge](https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak), [PC Gamer](https://www.pcgamer.com/games/fps/valves-long-lost-prototype-portal-prequel-appears-online-after-nearly-20-years/) and [HotHardware](https://hothardware.com/news/valves-scrapped-portal-prequel-f-stop-is-finally-playable-after-19-years).
 
 ## Research and credits
 
