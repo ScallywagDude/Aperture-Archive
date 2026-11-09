@@ -1,0 +1,213 @@
+/* CORE HUB ERA / 852_0 — bespoke July 2009 prototype interface
+   Sterile Portal 1-era testing chambers meet decaying infrastructure, placeholder
+   development interfaces and internal Aperture test-floor signage. Scoped ONLY to jul-2009.html. */
+body.build-corehub{
+  --ch-void:#101c1a;--ch-floor:#142520;--ch-metal:#1c3430;--ch-surface:#263f3b;
+  --ch-steel:#486158;--ch-fog:#b5bfb1;--ch-white:#efe9d9;--ch-amber:#e9a35f;--ch-rust:#ba6b42;
+  --ch-line:#60776c;--ch-teal:#85aca0;--ch-blue:#8db6c1;
+  background:#12231e;color:var(--ch-white);
+}
+body.build-corehub .top-ribbon{background:#101917;color:#d0d9c8;border-bottom:1px solid #4e6a5a}
+body.build-corehub .site-header{background:#182a25;border-bottom-color:#8eae9b;box-shadow:0 4px 0 #ce8753}
+body.build-corehub .site-header .brand-wordmark{filter:invert(1)}
+body.build-corehub .site-header .brand-section{color:#e7a573}
+body.build-corehub .site-header .primary-nav a{color:#e7e9d9}
+body.build-corehub .site-header .primary-nav a:hover{background:#315145;color:#fff}
+body.build-corehub .site-header .primary-nav a.active{color:#ffc48d;border-bottom-color:#d99463}
+body.build-corehub .site-header .menu-toggle,body.build-corehub .site-header .theme-toggle{color:#ede6cf;border-color:#709081}
+body.build-corehub .site-footer{background:#0e1815;border-top:6px solid #bd784c}
+body.build-corehub .site-footer a{color:#f1b589}
+body.build-corehub #main{overflow:hidden}
+body.build-corehub :is(#corehub-research,#corehub-route,#corehub-video,#corehub-media,#corehub-stills){scroll-margin-top:32px}
+/* THE DEV FLOOR / MAIN CONTROL HEADER */
+.build-corehub .ch-hero{position:relative;isolation:isolate;color:#f0e8d6;background:linear-gradient(122deg,#1d3531 0%,#142b29 48%,#0e211f 100%);border-top:7px solid #b47c4b;overflow:hidden}
+.build-corehub .ch-hero::before{content:"";position:absolute;inset:0;z-index:-2;pointer-events:none;background:linear-gradient(rgba(178,206,192,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(178,206,192,.07) 1px,transparent 1px);background-size:52px 52px;mask-image:linear-gradient(95deg,transparent 0%,#000 70%)}
+.build-corehub .ch-hero::after{content:"";position:absolute;right:-135px;top:0;bottom:0;width:270px;z-index:-1;pointer-events:none;opacity:.18;background:repeating-linear-gradient(-45deg,#dd985d 0 5px,transparent 5px 22px)}
+.build-corehub .ch-hero-ruler{border-bottom:1px solid #4c7165;background:#0c201c}
+.build-corehub .ch-hero-ruler>.wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px 19px;padding-block:12px;font:900 10px/1.6 'Courier New',monospace;letter-spacing:.45px;color:#b9d0be}
+.build-corehub .ch-live-label{color:#ffcc9e}
+.build-corehub .ch-live-label i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:8px;background:#d7935c}
+.build-corehub .ch-hero-layout{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);align-items:center;gap:clamp(30px,4vw,66px);padding-block:clamp(65px,7vw,110px) clamp(73px,8vw,126px)}
+.build-corehub .ch-hero-layout>*{min-width:0}
+.build-corehub .ch-industrial-label{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-bottom:45px;font:900 10px/1.5 'Courier New',monospace;color:#d4dacc;letter-spacing:.7px}
+.build-corehub .ch-industrial-label b{background:#df975b;color:#1b302c;padding:5px 9px}
+.build-corehub .ch-title-overline{display:block;font:900 10px/1.6 'Courier New',monospace;letter-spacing:2.4px;color:#b6c7ba}
+.build-corehub .ch-hero h1{margin:16px 0 24px;display:flex;flex-direction:column;max-width:100%;line-height:.77;font:900 clamp(92px,10vw,164px)/.77 Impact,'Arial Narrow',sans-serif;letter-spacing:-.06em;text-transform:uppercase;overflow:visible}
+.build-corehub .ch-hero h1 span{color:#f0eadb}
+.build-corehub .ch-hero h1 em{font-style:normal;color:#e3985b;margin-left:.02em}
+.build-corehub .ch-title-period{color:#8bb2a4!important}
+.build-corehub .ch-hero-serial{display:flex;flex-wrap:wrap;gap:8px;margin:37px 0 22px}
+.build-corehub .ch-hero-serial span{padding:7px 10px;border:1px solid #7a9b8c;background:rgba(23,48,42,.66);font:900 10px/1.4 'Courier New',monospace;letter-spacing:.5px;color:#e5eadb}
+.build-corehub .ch-hero-copy>p{font-size:clamp(15px,1.45vw,18px);max-width:625px;line-height:1.85;color:#c9d9d0;margin-bottom:28px}
+.build-corehub .ch-hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.build-corehub .ch-hero-actions a{display:inline-flex;align-items:center;gap:20px;justify-content:space-between;min-height:49px;padding:12px 16px;text-decoration:none;font:900 11px/1.5 'Courier New',monospace}
+.build-corehub .ch-action-primary{background:#d88b53;color:#172921;box-shadow:5px 5px 0 #081a14}
+.build-corehub .ch-action-primary:hover{background:#f1b47b;color:#0e1c17}
+.build-corehub .ch-action-quiet{border:1px solid #90a89a;color:#e7dfce}
+.build-corehub .ch-action-quiet:hover{background:#35564a;color:#fff}
+.build-corehub .ch-hero-warning{display:flex;align-items:start;gap:12px;max-width:590px;margin-top:37px;padding-top:18px;border-top:1px dashed #759387}
+.build-corehub .ch-hero-warning>span{font-size:24px;line-height:1;color:#e09b60}
+.build-corehub .ch-hero-warning p{font:800 10px/1.7 'Courier New',monospace;color:#a9c2b0;margin:0}
+/* LIVE FEED: authentic preserved 852_0 screenshots, not illustrative retail art */
+.build-corehub .ch-hero-visual{position:relative;padding:0 23px 52px 12px;min-width:0}
+.build-corehub .ch-hero-visual::before{content:"";position:absolute;inset:35px 2px 65px 2px;border:1px solid #63877c;transform:translate(15px,-12px);pointer-events:none}
+.build-corehub .ch-visual-top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font:900 9px/1.5 'Courier New',monospace;letter-spacing:.4px;color:#e2e0d1;margin-bottom:12px}
+.build-corehub .ch-blink{color:#e9ac79}
+.build-corehub .ch-main-screen{margin:0;background:#263e39;border:11px solid #8ca89b;box-shadow:14px 14px 0 #081914}
+.build-corehub .ch-main-screen>a{position:relative;display:block;aspect-ratio:1.2;overflow:hidden;background:#102822}
+.build-corehub .ch-main-screen img{width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(.8) contrast(1.08)}
+.build-corehub .ch-main-screen>a::after{content:"";pointer-events:none;position:absolute;inset:0;background:linear-gradient(0deg,rgba(4,19,13,.28),transparent 35%),repeating-linear-gradient(0deg,rgba(0,0,0,.12) 0 1px,transparent 1px 4px);opacity:.45}
+.build-corehub .ch-screen-reticle{position:absolute;z-index:2;left:50%;top:50%;transform:translate(-50%,-50%);border:1px solid rgba(225,244,234,.42);border-radius:50%;height:60px;width:60px;pointer-events:none}
+.build-corehub .ch-screen-reticle::before,.build-corehub .ch-screen-reticle::after{content:"";position:absolute;background:rgba(225,244,234,.45);pointer-events:none}
+.build-corehub .ch-screen-reticle::before{width:1px;height:80px;top:-10px;left:50%}
+.build-corehub .ch-screen-reticle::after{height:1px;width:80px;left:-10px;top:50%}
+.build-corehub .ch-screen-counter{position:absolute;z-index:2;left:13px;bottom:12px;padding:5px 7px;background:rgba(10,26,20,.78);color:#e6f1d8;font:900 9px 'Courier New',monospace}
+.build-corehub .ch-main-screen figcaption{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:11px 3px 1px;font:900 9px/1.55 'Courier New',monospace;color:#f0e9d9}
+.build-corehub .ch-main-screen figcaption span:last-child{color:#f0aa78}
+.build-corehub .ch-secondary-screen{position:absolute;right:0;bottom:0;margin:0;width:39%;border:7px solid #d4d4bd;background:#cbd5be;transform:rotate(4deg);box-shadow:6px 8px 0 #061b13;z-index:3}
+.build-corehub .ch-secondary-screen a{display:block;aspect-ratio:1.45;overflow:hidden}
+.build-corehub .ch-secondary-screen img{width:100%;height:100%;object-fit:cover}
+.build-corehub .ch-secondary-screen figcaption{font:900 8px/1.5 'Courier New',monospace;color:#244238;padding:7px 1px}
+.build-corehub .ch-visual-coordinate{font:900 9px/1.7 'Courier New',monospace;letter-spacing:.7px;color:#9caf9c;padding-top:21px}
+.build-corehub .ch-specimen-bar{background:#d49a66;color:#1c352e;border-top:5px solid #749083;border-bottom:7px solid #365c4e}
+.build-corehub .ch-specimen-bar>.wrap{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.build-corehub .ch-specimen-bar span{min-width:0;display:flex;align-items:center;gap:12px;border-left:1px solid rgba(30,58,47,.38);padding:19px 14px;font:900 10px/1.5 'Courier New',monospace}
+.build-corehub .ch-specimen-bar span:last-child{border-right:1px solid rgba(30,58,47,.38)}
+.build-corehub .ch-specimen-bar b{font:900 26px Impact,'Arial Narrow',sans-serif;color:#2b5c4c}
+/* Internal navigation: a development console ribbon */
+.build-corehub .ch-section-navigation{position:relative;background:#112922;border-bottom:2px solid #6e927c}
+.build-corehub .ch-section-navigation>.wrap{display:flex;flex-wrap:wrap;gap:7px 12px;align-items:center;padding-block:12px}
+.build-corehub .ch-section-navigation span{margin-right:auto;color:#eba76d;font:900 10px 'Courier New',monospace;letter-spacing:.7px;white-space:nowrap}
+.build-corehub .ch-section-navigation a{font:900 10px/1.6 'Courier New',monospace;letter-spacing:.25px;color:#d7e5d7;text-decoration:none;padding:9px 10px;border:1px solid #526e60}
+.build-corehub .ch-section-navigation a:hover,.build-corehub .ch-section-navigation a:focus-visible{background:#365b4b;border-color:#e2a26c;color:#fff}
+/* The entire research section is now a 2009 test-floor interface, not a paper dossier */
+.build-corehub .ch-test-floor{color:#dbe3d8;background-color:#142820;background-image:repeating-linear-gradient(90deg,transparent 0 89px,rgba(146,177,151,.025) 89px 90px),linear-gradient(120deg,rgba(91,146,118,.08),transparent 38%);padding:55px 0 100px}
+.build-corehub .ch-file-strip{display:flex;justify-content:space-between;gap:15px 25px;flex-wrap:wrap;border:1px solid #567264;background:#213d34;padding:14px 18px;color:#b8d1be;font:900 10px/1.6 'Courier New',monospace;letter-spacing:.35px;margin-bottom:55px}
+.build-corehub .ch-file-strip b{color:#f4ba83;font-size:18px}
+.build-corehub .dossier-grid{grid-template-columns:minmax(0,1fr) minmax(235px,290px);gap:35px;align-items:start}
+.build-corehub .dossier-grid>*{min-width:0}
+.build-corehub .corehub-section-heading{margin:0 0 25px;padding:0 0 22px;border-top:0;border-bottom:2px solid #6f9181}
+.build-corehub .corehub-section-heading .eyebrow,.build-corehub .corehub-neighbor .eyebrow,.build-corehub .dossier-video-section .eyebrow,.build-corehub .corehub-screenshot-head .eyebrow{color:#e3a76a}
+.build-corehub .corehub-section-heading .dossier-h2,.build-corehub .dossier-video-section .dossier-h2,.build-corehub .corehub-screenshot-head .dossier-h2{font:900 clamp(41px,4.8vw,68px)/.95 Impact,'Arial Narrow',sans-serif;margin:12px 0 18px;color:#f0ebdd;text-transform:uppercase}
+.build-corehub .corehub-section-heading .dossier-h2 em,.build-corehub .dossier-video-section .dossier-h2 em,.build-corehub .corehub-screenshot-head .dossier-h2 em{color:#e1a16a}
+.build-corehub .corehub-section-heading>p{font-size:14px;line-height:1.85;color:#bfcfc2}
+.build-corehub .corehub-quickfacts{border:2px solid #668676;background:#0f201b;gap:2px;grid-template-columns:repeat(3,minmax(0,1fr));box-shadow:5px 5px 0 #081c14}
+.build-corehub .corehub-quickfacts>div{background:#2b483d;color:#f0e6d4;padding:20px 17px;border-top:5px solid #d58a58}
+.build-corehub .corehub-quickfacts b{color:#f1e3cc}
+.build-corehub .corehub-quickfacts span{color:#a8cab5}
+.build-corehub .corehub-source-key{color:#aec3b5;border-bottom-color:#5b7765}
+.build-corehub .corehub-source-key strong{color:#f4bd8a}
+.build-corehub .corehub-source-key a{color:#f3b182}
+.build-corehub .corehub-evidence-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.build-corehub .corehub-evidence-card{position:relative;background:#223a34;color:#f0e9dd;border:1px solid #668577;border-left:5px solid #df9b64;border-top:1px solid #668577;box-shadow:4px 4px 0 #0a1a15;padding:24px 22px;transform:none!important;min-height:230px}
+.build-corehub .corehub-evidence-card::before{content:"";position:absolute;top:0;right:0;width:45px;height:45px;background:linear-gradient(135deg,transparent 0 50%,rgba(232,165,101,.13) 50%)}
+.build-corehub .corehub-evidence-card.corehub-card-lead{border-left-color:#9bc9ae;background:#2a493c}
+.build-corehub .corehub-evidence-index{color:#f1af79}
+.build-corehub .corehub-evidence-card h3{color:#faf0db;font-size:clamp(27px,2.6vw,35px)}
+.build-corehub .corehub-evidence-card p{color:#c6d5c6;font-size:13px}
+.build-corehub .corehub-evidence-card a{color:#ffc08b}
+.build-corehub .corehub-evidence-card code{color:#ffe0ad;background:#102b20;padding:1px 4px;border:1px solid #46665a}
+/* route schematic */
+.build-corehub .corehub-route{position:relative;margin-top:52px;background:#0e231c;color:#f5ebd7;border:2px solid #789381;border-top:9px solid #e09d66;box-shadow:7px 7px 0 #061912;overflow:hidden}
+.build-corehub .corehub-route::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.16;background:linear-gradient(90deg,#a4c0ae 1px,transparent 1px),linear-gradient(#a4c0ae 1px,transparent 1px);background-size:26px 26px}
+.build-corehub .corehub-route>*{position:relative}
+.build-corehub .corehub-route h2{color:#f5ead7}
+.build-corehub .corehub-route h2 em{color:#f0ae76}
+.build-corehub .corehub-route-flow>div{background:#e8e3cd;color:#1d4031;border-left:8px solid #95b8a2;clip-path:polygon(0 0,calc(100% - 15px) 0,100% 15px,100% 100%,0 100%)}
+.build-corehub .corehub-route-flow>.corehub-route-branch{background:#335748;color:#f5eedc;border-color:#d89662}
+.build-corehub .corehub-route>a{color:#fbc399}
+.build-corehub .corehub-neighbor{border-top:5px solid #739582;padding-top:31px}
+.build-corehub .corehub-neighbor h2{color:#f5ead7}
+.build-corehub .corehub-neighbor h2 em{color:#eeaa75}
+.build-corehub .corehub-neighbor>p{color:#bbccbd}
+.build-corehub .corehub-neighbor-links>a{background:#263e36;border:1px solid #668577;border-top:5px solid #d38d5e;color:#f7eedc;box-shadow:4px 4px 0 #0a1913}
+.build-corehub .corehub-neighbor-links>a strong{color:#f5e8d2}
+.build-corehub .corehub-neighbor-links>a span,.build-corehub .corehub-neighbor .corehub-citation{color:#ffc28d}
+/* actual gameplay and surviving imagery */
+.build-corehub .dossier-video-section{margin-top:75px;padding:25px 0 52px;border-top:6px solid #7e9985}
+.build-corehub .dossier-video-section .dossier-h2{color:#f5ead9}
+.build-corehub .dossier-video-embed{background:#0d1916;border:9px solid #749485;box-shadow:8px 8px 0 #081b14}
+.build-corehub .dossier-video-meta{color:#c9d5c5}
+.build-corehub .dossier-video-meta a{color:#e9ae7d}
+.build-corehub .dossier-video-meta span{color:#ffb47e;border-color:#a16a47}
+.build-corehub .corehub-media-ledger{margin:65px 0 75px;border:6px solid #89a394;background:linear-gradient(125deg,#1b372c,#112b25);box-shadow:8px 8px 0 #0b1e16}
+.build-corehub .corehub-media-ledger::before{background-size:42px 42px}
+.build-corehub .corehub-media-header h2{color:#f1ead9}
+.build-corehub .corehub-media-entry{transform:none!important;border:7px solid #d4dcc9;box-shadow:5px 6px 0 #0b1c15;background:#d4dcc9}
+.build-corehub .corehub-media-entry figcaption{background:#dce1ce;color:#284236;border-top-color:#c78855}
+.build-corehub .corehub-media-entry figcaption strong{color:#284337}
+.build-corehub .corehub-media-entry figcaption a,.build-corehub .corehub-media-entry figcaption span{color:#9d4c2d}
+.build-corehub .corehub-media-photo{background:linear-gradient(135deg,#3b5850,#162b28)}
+.build-corehub .corehub-screenshot-head{border-top:6px solid #7e9985;margin-top:65px;padding-top:30px}
+.build-corehub .screenshots{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.build-corehub .archive-shot{padding:8px;background:#d9e1ce;border:1px solid #789a86;box-shadow:6px 7px 0 #0a1b13}
+.build-corehub .archive-shot img{height:clamp(160px,21vw,290px);background:#223a33;object-fit:contain}
+.build-corehub .archive-shot figcaption{border-top:5px solid #c88759;background:#e4e7d3;color:#395347;font-size:12px}
+.build-corehub .archive-shot figcaption a{color:#945332}
+.build-corehub .dossier-side{position:sticky;top:18px;gap:12px}
+.build-corehub .dossier-side .aside-box{padding:22px 19px;background:#dfdfcb;color:#1d3a30;border:2px solid #729887;border-top:7px solid #d8945e;box-shadow:5px 5px 0 #092017}
+.build-corehub .dossier-side .aside-box>span{color:#a05733}
+.build-corehub .dossier-side .aside-box h3{color:#25473a}
+.build-corehub .dossier-side .aside-box p{color:#466255}
+.build-corehub .dossier-side .aside-box a{color:#944b2c;overflow-wrap:anywhere}
+.build-corehub .dossier-side .aside-box .btn{background:#aa623f;color:#fff3df;box-shadow:3px 3px 0 #223c32;border:0;min-width:0}
+.build-corehub .dossier-side .aside-box .btn:hover{background:#8c4c30;color:#fff}
+.build-corehub a:focus-visible{outline:3px solid #ffc88b;outline-offset:3px}
+/* dark-theme variation keeps the same genuine 2009 look, with deeper metal and contrast */
+html[data-theme="dark"] body.build-corehub .ch-test-floor{background-color:#0d1b17}
+html[data-theme="dark"] body.build-corehub .corehub-evidence-card{background:#192e28;border-color:#536e5e;border-left-color:#e3a269}
+html[data-theme="dark"] body.build-corehub .corehub-evidence-card.corehub-card-lead{background:#244237;border-left-color:#9bc9ae}
+html[data-theme="dark"] body.build-corehub .corehub-quickfacts>div{background:#203a2e}
+html[data-theme="dark"] body.build-corehub .dossier-side .aside-box{background:#2b4336;color:#f6e5d0}
+html[data-theme="dark"] body.build-corehub .dossier-side .aside-box :is(h3,p){color:#f3e4cf}
+html[data-theme="dark"] body.build-corehub .dossier-side .aside-box a{color:#ffc08a}
+@media(max-width:1120px){
+ .build-corehub .ch-hero-layout{grid-template-columns:minmax(0,1fr) minmax(0,.95fr);gap:28px}
+ .build-corehub .ch-hero h1{font-size:clamp(76px,9vw,134px)}
+ .build-corehub .ch-specimen-bar>.wrap{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .build-corehub .ch-specimen-bar span:nth-child(2){border-right:1px solid rgba(30,58,47,.38)}
+ .build-corehub .dossier-grid{grid-template-columns:minmax(0,1fr) minmax(210px,245px);gap:24px}
+ .build-corehub .corehub-evidence-grid{grid-template-columns:minmax(0,1fr)}
+}
+@media(max-width:850px){
+ .build-corehub .ch-hero-layout{grid-template-columns:minmax(0,1fr);padding-block:53px 83px}
+ .build-corehub .ch-hero h1{font-size:clamp(88px,16vw,154px)}
+ .build-corehub .ch-hero-copy>p{max-width:740px}
+ .build-corehub .ch-hero-visual{width:min(100%,670px);margin-inline:auto}
+ .build-corehub .ch-specimen-bar>.wrap{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .build-corehub .dossier-grid{grid-template-columns:minmax(0,1fr)}
+ .build-corehub .dossier-side{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+ .build-corehub .dossier-side .aside-box:last-child{grid-column:1/-1}
+}
+@media(max-width:680px){
+ .build-corehub .ch-hero-ruler>.wrap{font-size:8px}
+ .build-corehub .ch-hero h1{font-size:clamp(72px,17vw,112px)}
+ .build-corehub .ch-hero-layout{padding-block:48px 74px}
+ .build-corehub .ch-industrial-label{margin-bottom:26px}
+ .build-corehub .ch-title-overline{font-size:9px;letter-spacing:1.4px}
+ .build-corehub .ch-hero-visual{padding:0 15px 37px 0}
+ .build-corehub .ch-main-screen{border-width:7px;box-shadow:8px 8px 0 #081914}
+ .build-corehub .ch-main-screen>a{aspect-ratio:1.35}
+ .build-corehub .ch-secondary-screen{width:39%;border-width:5px}
+ .build-corehub .ch-screen-counter{font-size:8px}
+ .build-corehub .ch-specimen-bar>.wrap{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+ .build-corehub .ch-specimen-bar span{font-size:9px;padding:14px 8px;gap:8px}
+ .build-corehub .ch-specimen-bar b{font-size:20px}
+ .build-corehub .ch-file-strip{padding:12px;font-size:9px;gap:8px}
+ .build-corehub .ch-test-floor{padding-block:45px 75px}
+ .build-corehub .corehub-evidence-grid,.build-corehub .screenshots{grid-template-columns:minmax(0,1fr)}
+ .build-corehub .corehub-evidence-card{min-height:0}
+ .build-corehub .dossier-side{grid-template-columns:minmax(0,1fr)}
+ .build-corehub .dossier-side .aside-box:last-child{grid-column:auto}
+}
+@media(max-width:420px){
+ .build-corehub .ch-hero h1{font-size:clamp(60px,17vw,81px)}
+ .build-corehub .ch-hero-actions{flex-direction:column}
+ .build-corehub .ch-hero-actions a{width:100%}
+ .build-corehub .ch-hero-serial span{font-size:9px;padding:7px}
+ .build-corehub .ch-hero-ruler>.wrap span:nth-child(2){display:none}
+ .build-corehub .ch-main-screen figcaption{font-size:8px}
+ .build-corehub .ch-secondary-screen{right:-4%}
+ .build-corehub .corehub-quickfacts{grid-template-columns:minmax(0,1fr)}
+}
+@media(prefers-reduced-motion:reduce){.build-corehub *{scroll-behavior:auto!important}}
