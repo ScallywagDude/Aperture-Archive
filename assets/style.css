@@ -1124,3 +1124,11 @@ html[data-theme=dark] .corehub-route-flow>.corehub-route-branch{background:#523d
 html[data-theme=dark] .build-crossref{background:#20352a;border-color:#5f7d66}
 html[data-theme=dark] .build-crossref p{color:#cdd7cb}
 @media(max-width:600px){.build-crossref{padding:19px 20px}.build-crossref p{font-size:13px}}
+
+
+/* Corehub pinned designation / primary server citation */
+.corehub-source-key{font:800 11px/1.9 'Courier New',monospace;color:var(--muted);margin:0 0 21px;padding:12px 0;border-bottom:1px solid var(--line)}
+.corehub-source-key strong{color:var(--ink);font-weight:900}
+.corehub-source-key a{display:inline-block;color:var(--orange2);text-decoration:underline;text-underline-offset:3px}
+html[data-theme=dark] .corehub-source-key{color:#c4d1c0}
+html[data-theme=dark] .corehub-source-key strong{color:#f0e8d8}
